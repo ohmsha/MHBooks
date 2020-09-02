@@ -54,7 +54,7 @@ C:> python
 3.4.3
 ```
 
-- **PuLP**: 線形計画法
+##### PuLP: 線形計画法
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge pulp
 ```
@@ -63,7 +63,7 @@ C:> python
 > pip install pulp
 ```
 
-- **pyaudio**：音声ファイルの入出力，処理 （付録に備考あり）
+##### pyaudio: 音声ファイルの入出力，処理 （付録に備考あり）
 ```
 > conda install --channel https://conda.anaconda.org/anaconda pyaudio
 ```
@@ -72,12 +72,12 @@ C:> python
 > python -m pip install pyaudio
 ```
 
-- **mpl_finance** : ローソク足チャートのプロット　（付録に備考あり）
+##### mpl_finance: ローソク足チャートのプロット　（付録に備考あり）
 ```
 > pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
 ```
 
-- **rpy2**: Rのデータセットにアクセスするインタフェース （付録に備考あり）
+##### rpy2: Rのデータセットにアクセスするインタフェース （付録に備考あり）
 ```
 > conda install rpy2
 > conda install tzlocal
