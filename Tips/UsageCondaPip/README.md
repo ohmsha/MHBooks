@@ -120,4 +120,4 @@ https://docs.anaconda.com/anaconda/packages/r-language-pkg-docs
 
 ![mlxtend](./figs/fig_UsageCondaPip_mlxtend.png) 
 
-<img src="./figs/fig_UsageCondaPip_mlxtend.png" width="320"> 
+<img src="./figs/fig_UsageCondaPip_mlxtend.png" width="320px"> 
