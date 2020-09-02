@@ -7,27 +7,20 @@
 ---
 ### 各書のプログラム（データ含む）の取得と正誤表
 
-下記のダウンロードをクリックして，ZIPファイルをダウンロードした後に，解凍して生成されるフォルダの中にあります。
-
-また，正誤表には各書の各版刷の誤り修正を記述しています。
+各書籍で用いているプログラムと正誤表は次にあります。
 - データサイエンス教本（ダウンロード）（正誤表）-> フォルダ [DataScience](./DataScience)の中を見てください。
-- Pythonデータエンジニアリング入門（ダウンロード）（正誤表）-> フォルダ ProgramDEの中を見てください。
-- Pythonコンピュータシミュレーション（ダウンロード）（正誤表）-> フォルダ ProgramSIの中を見てください。
+- Pythonデータエンジニアリング入門（ダウンロード）（正誤表）-> フォルダ[DataEngineering](./DataEngineering)の中を見てください。
+- Pythonコンピュータシミュレーション（ダウンロード）（正誤表）-> フォルダ[ComputerSimulation](./ComputerSimulation)の中を見てください。
 
 ---
 ### 全ての書籍の共通事項
+フォルダ[Tips](./Tips)の中に次の項目があります。行頭の**太字**はフォルダ名です。
 
-1. フォルダInstallの内容
-    - Anacondaインストール
-    - condaとpipの使用法入門編
-    - 書籍で用いるパッケージのインストール
-    - バージョンによる注意事項
-    - 実行時のエラー集（数は少ない）
-
-2. フォルダUsageの内容
-    - JupyterLab, Notebookの使い方入門編
-    - Colaboratoryの使い方入門編
-
-3. フォルダMiscの内容
+- **InstallAnaconda**: Anacondaインストール
+- **InstallPackages**: 書籍で用いるパッケージのインストール（Anacondaで足りないもの）
+- **NoteErrors**: パッケージの問題（主にバージョンへの依存性）と実行時エラーのQ&A(わずかです)
+- **UsageCondaPip**: condaとpipの使用の入門編
+- **UsageIDE**: 統合開発環境としてのJupyterLab, Jupyter Notebook, Colaboratoryの使用の入門編
+- **Misc**: Miscellaneous（その他，様々なこと）
    - オープンデータセットの紹介
    - 無料で読める良書
