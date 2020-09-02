@@ -108,7 +108,7 @@ pandas2ri.activate()
 
 Python 3.6の場合は次でインストールできた。
 ```
-> python -m pip install pyaudio
+> pip install pyaudio
 ```
 
 しかし、Python 3.7の場合は、上記のインストールではエラーが生じる。
