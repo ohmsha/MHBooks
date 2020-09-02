@@ -121,3 +121,164 @@ https://docs.anaconda.com/anaconda/packages/r-language-pkg-docs
 ![mlxtend](./figs/fig_UsageCondaPip_mlxtend.png) 
 
 <!--- 右では小さい　<img src="./figs/fig_UsageCondaPip_mlxtend.png" width="640px"> --->
+
+上図で，注目すべきなのはトップにある項目で，左から
+- Name   チャネル名/パッケージ名
+- Platforms パッケージの稼働確認したOS
+- Builds  　パッケージの稼働確認したPythonのバージョン
+- パッケージをインストールする前に，PlatformsとBuildsの確認を行うこと
+
+#### 表示されたパッケージの確認
+
+上記のName欄をスラッシュ’/’　付きで次のように入力する。
+```
+> anaconda show conda-forge/mlxtend
+Using Anaconda API: https://api.anaconda.org
+Name:    mlxtend
+Summary: Machine Learning Library Extensions
+Access:  public
+Package Types:  conda
+Versions:
+   + 0.7.0
+   + 0.8.0
+   + 0.9.0
+   + 0.9.1
+   + 0.10.0
+
+To install this package with conda run:
+     conda install --channel https://conda.anaconda.org/conda-forge mlxtend
+```
+
+この表示の最後の行に，インストール法が示されるので，この通りに入力すればパッケージmlxtendのインストールを行える。
+
+コマンドオプションの””--channel” はどのチャネルを通してパッケージにアクセスできるかを示している。また，https://conda.anaconda.org/チャネル名　の場合は，省略して “--c チャネル名”とすることもできる。
+
+
+#### パッケージのインストール
+
+注意：Windowsの場合，コマンドプロンプトは管理者権限で起動すること。
+
+conda search で見つかった場合
+
+```
+> conda install パッケージ名
+```
+
+anaconda search -t conda で見つかった場合
+```
+> conda install --channel　チャネル名　パッケージ名
+```
+
+#### パッケージのアップグレード
+```
+> conda update パッケージ名
+```
+
+####パッケージのアンインストール
+```
+> conda uninstall パッケージ名   # uninstallの代わりにremoveでも可
+```
+注意：他のインストールコマンドであるpipでインストールしたパッケージはpipで削除すること。
+
+
+--------------------------------
+
+## 3. Pythonの異なるバージョンの仮想環境作成
+
+
+#### インストール済みのパッケージリスト表示
+
+
+```
+> conda search --full-name python
+```
+
+#### 仮想環境の作成
+conda create -n <環境名> python=<バージョン> <スペース区切りでライブラリ名>
+
+```
+> conda create -n py2 python=2.7 numpy scipy pandas jupyter
+```
+
+Python 2.7系を使える環境作成かつanacondaとしてまとめて入れることも可能。
+```
+> conda create -n py27 python=2.7 anaconda
+```
+
+#### 仮想環境の確認
+```
+> conda info -e
+
+# conda environments:
+#
+chainer                  /home/user/anaconda2/envs/chainer
+py27                     /home/user/anaconda2/envs/py27
+py35                     /home/user/anaconda2/envs/py35
+root                   *  /home/user/anaconda2
+```
+
+#### 仮想環境の出入り
+
+仮想環境に入る
+
+```
+> source activate py2		# windowsではactivate py2
+```
+
+
+仮想環境から抜ける
+
+```
+> source deactivate		# windowsではdeactivate
+```
+
+#### 仮想環境の削除
+```
+> conda remove -n py2 --all
+```
+
+#### その他
+Rの仮想環境の作成
+
+Rの仮想環境作成パッケージの幾つかのリストが次にある。
+https://docs.anaconda.com/anaconda/packages/r-language-pkg-docs
+この中で，JupyterにR使用の環境作成が次で行えることがわかる。
+```
+> conda create -n R -c r r-irkernel
+```
+
+
+--------------------------------
+
+## 4. pipの使い方
+
+condaではインストールできないパッケージがある。この場合，pipコマンドを用いる。Anacondaには，pip（下記のpip3）を含んでいる。
+
+#### 注意：
+
+Python2.7系とPython3系の両方を有している場合，
+- Python2.7系向けインストールには，pip   コマンドを使用
+- Python3系向けインストールには，   pip3 コマンドを使用
+
+##### Python3系のみを有している場合には，pip, pip3どちらを用いても構わない。
+
+Reference Guid https://pip.pypa.io/en/stable/reference/ 
+
+####pip自身のアップグレード
+```
+> python -m pip install --upgrade pip
+```
+
+#### パッケージの検索
+```
+> python -m pip search <パッケージ名，または，キーワード>
+```
+
+#### パッケージのインストールとアンインストール
+```
+> python -m pip install <パッケージ名>
+> python -m pip install numpy==1.11.0
+> python -m pip uninstall  <パッケージ名>
+```
+
+**注意：** pipでインストールしたパッケージはcondaで削除できないので，pipで削除すること．
