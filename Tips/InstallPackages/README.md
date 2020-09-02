@@ -67,7 +67,7 @@ C:> python
 ```
 > conda install --channel https://conda.anaconda.org/anaconda pyaudio
 ```
-または，https://people.csail.mit.edu/hubert/pyaudio/　に従い
+または，次に従い，https://people.csail.mit.edu/hubert/pyaudio/　
 ```
 > python -m pip install pyaudio
 ```
