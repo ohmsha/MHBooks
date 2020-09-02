@@ -113,6 +113,9 @@ Python 3.6の場合は次でインストールできた。
 >anaconda show anaconda/pyaudio
 ```
 
+2020年9月現在，どちらの方法でできるかは確認していないが，conda, pipの両方を試されたい。
+
+
 #### mpl_finance ：ローソク足チャート
 　matplotlib v.2.1.2 までは，matplotlib.financeの中にローソク足チャートを描くcandlestick_ohlcがあった。v.2.2.2からは，matplotlibからは無くなり，上記のパッケージに移行，これをインストールして使用するようになった。移行の説明は次にある：https://matplotlib.org/api/finance_api.html
  github のリポジトリからpipを用いてインストールする方法は
