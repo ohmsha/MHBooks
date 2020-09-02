@@ -9,11 +9,17 @@
 ```
 >python -m pip install --upgrade pip
 ```
+または
+```
+>pip install --upgrade pip
+```
+（今後，この表現を用います）
+
 この要求が出た場合，上記のとおりにpipのアップグレードを行った後にパッケージのインストールを行ってください。
 
 --------------------------------------
 
-- **Seaborn**：比較的綺麗なグラフ（ヒートマップ）表現https://seaborn.pydata.org/
+##### Seaborn：比較的綺麗なグラフ（ヒートマップ）表現https://seaborn.pydata.org/
 ```
 > conda install seaborn
 ```
@@ -21,16 +27,16 @@
 ```
 > pip install seaborn
 ```
-- **mlxtend*：パターン認識などで結果のプロットを簡単に行う
+##### mlxtend：パターン認識などで結果のプロットを簡単に行う
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge mlxtend
 ```
 
-- **OpenCV**: 画像処理，認識など
+##### OpenCV: 画像処理，認識
 
-    非公式のパッケージopencv-pythonを利用する。　https://pypi.python.org/pypi/opencv-python
+非公式のパッケージopencv-pythonを利用する。　https://pypi.python.org/pypi/opencv-python
 
-    - インストールは次のように行う。
+インストールは次のように行う。
 ```
 > pip install opencv-python
 Collecting opencv-python
@@ -39,7 +45,7 @@ Installing collected packages: opencv-python
 Successfully installed opencv-python-3.4.3.18
 ```
 
-    - インストール成功の確認は，次のように表示されることである。（バージョンは現時点のもの） 
+インストール成功の確認は，次のように表示されることである。（バージョンは現時点のもの） 
     
 ```
 C:> python
