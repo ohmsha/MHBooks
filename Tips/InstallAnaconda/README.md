@@ -56,7 +56,7 @@ https://www.anaconda.com/
 - C:\PATH\Anaconda3\Library\mingw-w64\bin;
 - C:\PATH\Anaconda3\Library\usr\bin;
 - C:\PATH\Anaconda3\Library\bin;
-- C:\PATH\Anaconda3\Scripts
+- C:\PATH\Anaconda3\Scripts;
 
 ここに，PATHはAnaconda3があるパスです。
 
