@@ -69,7 +69,7 @@ C:> python
 ```
 または，次に従い，https://people.csail.mit.edu/hubert/pyaudio/　
 ```
-> python -m pip install pyaudio
+> pip install pyaudio
 ```
 
 ##### mpl_finance: ローソク足チャートのプロット　（付録に備考あり）
