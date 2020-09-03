@@ -10,6 +10,7 @@ condaとpipの混合操作は依存関係やパッケージ削除などで混乱
 2. パッケージの管理
 3. Pythonの異なるバージョンの仮想環境作成
 4. pipの使い方
+5. condaとpipの比較
 
 ----------------
 
@@ -282,3 +283,16 @@ Reference Guid https://pip.pypa.io/en/stable/reference/
 ```
 
 **注意：** pipでインストールしたパッケージはcondaで削除できないので，pipで削除すること．
+
+--------------------------------
+
+## 5. condaとpipの比較
+
+次を参照されたい。
+- Condaの説明: https://docs.conda.io/
+- Understanding Conda and Pip: https://www.anaconda.com/blog/understanding-conda-and-pip
+
+NumPyのインストールはcondaの方がpipより良いとの報告がある（真偽はまだ確かめていません）。
+- Stop Installing Tensorflow using pip for performance sake!: https://towardsdatascience.com/stop-installing-tensorflow-using-pip-for-performance-sake-5854f9d9eb0c
+- AnacondaのNumPyとPyPIのNumPyの速度を比較する: https://minus9d.hatenablog.com/entry/2018/07/21/232121
+- conda installとpip installの違い。機能の比較など【Python】: https://insilico-notebook.com/conda-pip-install/
