@@ -16,8 +16,7 @@ https://sites.google.com/site/datasciencehiro/datasets
 ## 正誤表
 本書の正誤表です。誤りに関し小職の力の足りなさをお詫びいたします。誤りの訂正をお願いいたします。
 
-------------------------------------------------------
-#### 【第1版第2刷】
+### 【第1版第2刷】
 - 第1版第1刷の下記の誤りを訂正：
 - 上記に加えて更なる修正があり，お詫びするとともに修正をお願いいたします。
 
@@ -42,9 +41,7 @@ ProgramData\IMG_Gray2Bin.py
 https://docs.opencv.org/2.4/modules/imgproc/doc/geometric_transformations.html#void%20resize(InputArray%20src,%20OutputArray%20dst,%20Size%20dsize,%20double%20fx,%20double%20fy,%20int%20interpolation)
 
 
-------------------------------------------------------
-
-#### 【第1版第1刷】
+### 【第1版第1刷】
 
 page 14
 - ディフォルト  --> デフォルト
