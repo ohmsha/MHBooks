@@ -24,7 +24,7 @@ Colabは，強力な計算パワーを提供している。
 
 **使用時間制限**があるため，開発中のNotebookはGoogle ドライブに保存することが推奨されている。
 
-**データのアクセス（入出力）**について，クラウドコンピューティングの性質上，Googleドライブとリンクして， ドライブ上でデータのアクセスを行うようにする。
+**データのアクセス（入出力）**について，クラウドコンピューティングの性質上，Googleドライブとリンクして， ドライブ上でデータのアクセスを行うようにします。
 
 初めて使う場合には，次を参照すると良い。
 
@@ -52,7 +52,7 @@ cv2 (OpenCV ver.3)
 
 Colab
 mpl_financeのインストールの仕方：
-Colabのコードセルの１番目で、次の１行を実行する。
+Colabのコードセルの１番目で、次の１行を実行します。
 ```
 !pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
 ```
@@ -65,7 +65,7 @@ Colabのコードセルの１番目で、次の１行を実行する。
 2. 保存されているNotebookを再度実行したい場合
 3. データを読込む
  
-ここに，すでに、Googleにログインしているものとする。ここから、
+ここに，すでに、Googleにログインしているものとします。ここから、
 https://colab.research.google.com　にアクセスしているものとします。
 
 -----------------------------------------------------------
@@ -75,15 +75,141 @@ Colabのオープニング画面が次です。
 
 <img src="./figs/fig_IDE_Colab_Opening.png" width="640px">
 
-アップロードの仕方は、赤枠（右上の[アップロード]または右下の[ノートブックを新規作成]）のいずれかをクリックする。
+アップロードの仕方は、赤枠（右上の[アップロード]または右下の[ノートブックを新規作成]）のいずれかをクリックします。
 
-ここでは、[ノートブックを新規作成]をクリックするを選ぶものとする。
+ここでは、[ノートブックを新規作成]をクリックするを選ぶものとします。
 次の画面で、メニュー[ファイル] &rarr; [ノートブックをアップロード]を選ぶ。
 
 
+<img src="./figs/fig_IDE_Colab_Opening02.png" width="640px">
+
+次の画面で，PCにありアップロードしたいファイル（".ipynb"）をドラッグします。
+
+アップロード後、メニュー「ランタイム」→「すべてのセルを実行」を選ぶと、すべてのセルを上から順々に実行します。
+
+
+<img src="./figs/fig_IDE_Colab_Opening03.png" width="640px">
+
+このNotebookでは、次のようなグラフを結果として得ます。
+
+
+<img src="./figs/fig_IDE_Colab_Opening04.png" width="640px">
+
+このとき、自身のアカウントのGoogle ドライブ
+<img src="./figs/fig_IDE_Colab_GDrive_01.png" width="640px">
+
+の中に次の**フォルダ Colab Notebooks** （次図）が作成されます。
+
+<img src="./figs/fig_IDE_Colab_GDrive_02.png" width="640px">
+
+このフォルダの中に、先のスクリプトがファイルとして保存されていますので，各自で確認してください。
 
 ### 2. 保存されているNotebookを再度実行したい場合
 
+Notebookの保存先は，先の例で示したGoogle Drive内のフォルダColab Notebooksにあるものとします。
 
+そこで，Notebookの
+メニュー[ファイル] &rarr; [ノートブックを開く]を選択して所望のファイルをクリックすれば，それを読込むことができるので，
+この後に実行してください。
+
+他にも方法がありますが，これは他の説明を参照してください。
+
+------------------------------------------------------------
 ### 3. データを読込む
 
+最も簡単な方法を説明します。
+
+**読込みたいデータは、（各自で）事前にGoogle Driveのフォルダ"Colab Notebooks"の中にアップしてあるものとします。**
+
+このフォルダは，1度でもColabでNotebookを実行すると自動的に生成されるものです。
+
+いま，ファイルを読込むスクリプトの実行を考えます。
+これをColabで初めて実行するとき，FileNotFoundErroが出ます（当然ですね）。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_01.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_01.png" width="640px">
+
+この図で，赤枠(1)のフォルダアイコンをクリック，次に赤枠(2)の[Google Drive]アイコンをクリックします。
+
+
+
+
+初めて，Googleドライブをマウント（mount，プログラムからドライブにアクセスできるようにすること）するとき，
+次の画面が現れ，指定されたセルを実行してください，というメッセージが現れます。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_02.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_02.png" width="640px">
+
+赤枠の[実行]ボタンをクリックすると，この2行が実行され，Googleドライブのマウントを行います。
+
+
+
+次の画面で，矢印のURLに飛んでください（Go to this URL）と指示していますので，
+このURLをクリックしてください。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_03.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_03.png" width="640px">
+
+
+次の画面は，複数のGoogleアカウントをお持ちの方は，どのアカウントですか？と聞かれますので，適するものを選んでください。
+一つだけのアカウントの方は次の画面に移ります。
+
+次の画面で，最後にある[許可]をクリックしてください。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_04.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_04.png" width="640px">
+
+
+次のコードを全てコピーしてください。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_05.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_05.png" width="640px">
+
+このコードを赤枠の中に貼り付けて（paste），"Enter キー"を押してください。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_06.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_06.png" width="640px">
+
+
+しばらくしてから，Googleドライブ（赤枠）が現れます。
+
+<!---
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_07.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_07.png" width="640px">
+
+
+このアイコンをクリックして，その下のフォルダも辿り，データを格納したフォルダまで行き，
+所望の読込むファイル名を**右クリック**してください。
+
+[パスをコピー]を選択して，このファイルのURLを取得します。
+
+<!--
+![テンプ挿入](./figs/fig_IDE_Colab_ReadData_08.png)
+-->
+
+<img src="./figs/fig_IDE_Colab_ReadData_08.png" width="640px">
+これを図の赤枠に示すように，もともとのファイル名の代わりに，このURL（URLの最後はファイル名になっています））を代入してください。
+
+これを実行するレば，Googleドライブからデータを読込むことができます。
+
+以上
