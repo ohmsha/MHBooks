@@ -97,6 +97,7 @@ Colabのオープニング画面が次です。
 <img src="./figs/fig_IDE_Colab_Opening04.png" width="640px">
 
 このとき、自身のアカウントのGoogle ドライブ
+
 <img src="./figs/fig_IDE_Colab_GDrive_01.png" width="640px">
 
 の中に次の**フォルダ Colab Notebooks** （次図）が作成されます。
