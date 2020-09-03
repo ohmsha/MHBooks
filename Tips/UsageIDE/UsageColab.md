@@ -73,7 +73,7 @@ https://colab.research.google.com　にアクセスしているものとしま�
 
 Colabのオープニング画面が次です。
 
-<img src="./figs/fig_IDE_Colab_Opening.png" width="320px">
+<img src="./figs/fig_IDE_Colab_Opening.png" width="640px">
 
 アップロードの仕方は、赤枠（右上の[アップロード]または右下の[ノートブックを新規作成]）のいずれかをクリックする。
 
