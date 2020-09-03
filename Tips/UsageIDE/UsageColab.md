@@ -72,7 +72,6 @@ https://colab.research.google.com　にアクセスしているものとしま�
 ### 1. 新規にスクリプトをアップロードして実行する
 
 Colabのオープニング画面が次です。
-![ColabOpeing](./figs/fig_IDE_Colab_Opening.png) 
 
 <img src="./figs/fig_IDE_Colab_Opening.png" width="320px">
 
