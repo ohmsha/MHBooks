@@ -4,7 +4,7 @@
 このファイルと同じサイトにある[ProgramDS.zip](./ProgramDS.zip)をダウンロードして，これを解凍すれば，
 生成されたフォルダの中にあります。
 
-#### 注意：
+### 注意：
 2020年9月以前のプログラムの一部は次のクラウドサイトからデータを読込みました。
 
 https://sites.google.com/site/datasciencehiro/datasets
