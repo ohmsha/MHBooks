@@ -1,12 +1,22 @@
 # [Pythonデータエンジニアリング入門](https://www.ohmsha.co.jp/book/9784274225345/)のプログラム（ダウンロード）と正誤表
 
 ### プログラム（データ含む）のダウンロード
-このファイルと同じサイトにある**ProgramDE.zip**をダウンロードして，これを解凍すれば，
-生成されたフォルダの中にあります。
+このファイルと同じサイトにある**フォルダProgramDE**の中に
+- 第II編はフォルダ Part2
+- 第III編はフォルダ Par3
 
-ダウンロードの仕方：このサイトのファイルの一覧から**ProgramDE.zip**をクリックすると画面が変わります。
-この画面の右の方にある[Download]ボタンを押してダウンロードしてください。
-解凍後，生成されたフォルダ内の<strong>README.txt</strong>を読んでください。
-ここに，各編章項とプログラムの対応関係が書いてあります。
+これらの中に各編章項に対応したプログラムがZIPファイルとしてあります。
+これをダウンロードして解凍してお使いください。
+
+-----------------------------------------------------------------------------
+## 補足説明
 
 
+本書を補足する幾つかの説明用PDFがあります。
+
+下記、かっこ内のファイル名が説明用PDFです。
+- Visual Studio Communityのインストール（how_to_install_visual_studio_community.pdf）
+- SWIGのインストール（Install_SWIG_v1.1.pdf）
+- CMake + NMakeのインストールと使用手順（how_to_install_cmake_nmake.pdf）
+- pybind11[Win版]のインストールと使用手順,（how_to_install_pybind11_win.pdf）
+- [CuPyインストール](InstallCuPy.md)
