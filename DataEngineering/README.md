@@ -14,7 +14,9 @@
 
 本書を補足する幾つかの説明用PDFがあります。
 
-下記、かっこ内のファイル名が説明用PDFです。
+下記、かっこ内のファイル名が説明用PDFです。かっこが無いものは別途説明ページが開きます。
+
+これらPDFはダウンロードできます。または，ファイル名をクリックすればGitHubがその内容を表示します。
 - Visual Studio Communityのインストール（how_to_install_visual_studio_community.pdf）
 - SWIGのインストール（Install_SWIG_v1.1.pdf）
 - CMake + NMakeのインストールと使用手順（how_to_install_cmake_nmake.pdf）
