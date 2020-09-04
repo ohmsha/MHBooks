@@ -97,7 +97,7 @@ import pymc3
 
 sorry, unimplemented: 64-bit mode not compiled in
 ```
-このエラーが生じたならば，次を参照してください &rarr; [InstallPyMC3](./InstallPyMC3)
+このエラーが生じたならば，次を参照してください &rarr; [InstallPyMC3](./InstallPyMC3.md)
 
 
 ##### rpy2: Rのデータセットにアクセスするインタフェース （付録に備考あり）
