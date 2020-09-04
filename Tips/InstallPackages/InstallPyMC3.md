@@ -38,6 +38,7 @@ https://achapi2718.blogspot.com/2018/04/mingw-windows10.html
 
 
 MinGW-w64のインストールは次を参照
+
 https://www.javadrive.jp/cstart/install/index6.html
 
 
