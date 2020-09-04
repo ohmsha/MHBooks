@@ -43,12 +43,12 @@ HP: https://opencv.org/
 ```
 > conda install -c conda-forge opencv
 ```
-もし，Solving environment failedが生じたら次を実行してみる。
+もし，Solving environment failedが生じたら次を実行してください。
 ```
 > conda update --all
 ```
 
-インストール成功の確認は，次のように表示されることである。（バージョンは現時点のもの） 
+インストール成功の確認は，次のように表示されることです。（バージョンは現時点のもの） 
     
 ```
 > python
@@ -64,7 +64,7 @@ HPは次のインストールを示しています。
 ```
 > pip install PuLP
 ```
-condaを用いたインストールを行いたい場合は次である。
+condaを用いたインストールを行いたい場合は次です。
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge pulp
 ```
@@ -91,7 +91,7 @@ HP: https://docs.pymc.io/
 ```
 > pip install pymc3
 ```
-ただし，PyMC3はC/C++コンパイラ（64ビット）を使うため，次の実行
+ただし，PyMC3はC/C++コンパイラ（64ビット）を使うため，次の実行を行い
 ```
 import pymc3
 
@@ -110,12 +110,12 @@ sorry, unimplemented: 64-bit mode not compiled in
 ##### SimPy：離散事象シミュレータ
 HP: https://simpy.readthedocs.io/en/latest/
 
-HPは次のインストールを示している。
+HPは次のインストールを示しています。
 ```
 > pip install simpy
 ```
 
-pipは最新バージョンをインストールする。condaを用いたインストールを行いたい場合，多少古いバージョンでも良ければ，次で複数該当サイトを見つけられる。
+pipは最新バージョンをインストールする。condaを用いたインストールを行いたい場合，多少古いバージョンでも良ければ，次で複数該当サイトを見つけられます。
 ```
 > anaconda search -t conda simpy
 ```
