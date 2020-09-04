@@ -36,7 +36,7 @@ HP: http://rasbt.github.io/mlxtend/
 ```
 
 ##### OpenCV: 画像処理，認識
-公式HP: https://opencv.org/
+HP: https://opencv.org/
 
 参照:https://anaconda.org/conda-forge/opencv
 
@@ -58,9 +58,9 @@ HP: http://rasbt.github.io/mlxtend/
 ```
 
 ##### PuLP: 線形計画法
-公式HP: https://pypi.org/project/PuLP/
+HP: https://pypi.org/project/PuLP/
 
-公式HPは次のインストールを示している。
+HPは次のインストールを示しています。
 ```
 > pip install PuLP
 ```
@@ -91,7 +91,7 @@ HP: https://docs.pymc.io/
 ```
 > pip install pymc3
 ```
-ただし，PyMC3はC/C++コンパイラ（64ビット版）を使うため，次の実行
+ただし，PyMC3はC/C++コンパイラ（64ビット）を使うため，次の実行
 ```
 import pymc3
 
