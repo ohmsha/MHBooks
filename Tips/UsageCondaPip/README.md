@@ -170,12 +170,20 @@ anaconda search -t conda で見つかった場合
 > conda install --channel　チャネル名　パッケージ名
 ```
 
-#### パッケージのアップグレード
+#### パッケージのアップデート
 ```
 > conda update パッケージ名
 ```
 
-####パッケージのアンインストール
+**注意:** 
+SciPyのアップデートは次の様にinstall，かつ，バージョン番号を指定することで行えた。
+
+```
+> conda install scipy==1.5.2
+```
+
+
+#### パッケージのアンインストール
 ```
 > conda uninstall パッケージ名   # uninstallの代わりにremoveでも可
 ```
