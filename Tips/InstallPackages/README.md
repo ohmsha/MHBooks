@@ -1,11 +1,14 @@
 # 書籍で用いるパッケージのインストールの説明
 #### Anacondaでは足りないパッケージのインストールの説明
 
-全般的に，途中で Proceed ([y]/n) ? と聞かれたら ‘y’を入力します。
+インストールの途中で Proceed ([y]/n) ? と聞かれたら ‘y’を入力します。
 
-なお，“>” は<strong>管理者権限のプロンプト</strong>を表す。
+なお，“>” は<strong>プロンプト</strong>を表します。
+Windowsの場合は，管理者権限で行えるようにしてください。
 
-また，幾つかのパッケージが次のようにpipのアップグレードを要求されることがあります。
+インストールの仕方は主にcondaを使用します（Anacondaインストールを前提としているため）。
+しかし，pipでインストールされる場合もあります。
+この際，幾つかのパッケージが次のようにpipのアップグレードを要求されることがあります。
 ```
 >python -m pip install --upgrade pip
 ```
@@ -19,51 +22,56 @@
 
 --------------------------------------
 
-##### Seaborn：比較的綺麗なグラフ（ヒートマップ）表現https://seaborn.pydata.org/
-```
-> conda install seaborn
-```
-または
-```
-> pip install seaborn
-```
 ##### mlxtend：パターン認識などで結果のプロットを簡単に行う
+HP: http://rasbt.github.io/mlxtend/
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge mlxtend
 ```
 
+
+
+##### mpl_finance: ローソク足チャートのプロット　（付録に備考あり）
+```
+> pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
+```
+
 ##### OpenCV: 画像処理，認識
+HP: https://opencv.org/
 
-非公式のパッケージopencv-pythonを利用する。　https://pypi.python.org/pypi/opencv-python
+参照:https://anaconda.org/conda-forge/opencv
 
-インストールは次のように行う。
 ```
-> pip install opencv-python
-Collecting opencv-python
-<途中省略>
-Installing collected packages: opencv-python
-Successfully installed opencv-python-3.4.3.18
+> conda install -c conda-forge opencv
+```
+もし，Solving environment failedが生じたら次を実行してください。
+```
+> conda update --all
 ```
 
-インストール成功の確認は，次のように表示されることである。（バージョンは現時点のもの） 
+インストール成功の確認は，次のように表示されることです。（バージョンは現時点のもの） 
     
 ```
-C:> python
+> python
 >>> import cv2
 >>> print(cv2.__version__)
-3.4.3
+4.2.0
 ```
 
 ##### PuLP: 線形計画法
+HP: https://pypi.org/project/PuLP/
+
+HPは次のインストールを示しています。
+```
+> pip install PuLP
+```
+condaを用いたインストールを行いたい場合は次です。
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge pulp
 ```
-または，https://pypi.org/project/PuLP/　に従い
-```
-> pip install pulp
-```
+
 
 ##### pyaudio: 音声ファイルの入出力，処理 （付録に備考あり）
+HP: https://pypi.org/project/PyAudio/
 ```
 > conda install --channel https://conda.anaconda.org/anaconda pyaudio
 ```
@@ -72,10 +80,25 @@ C:> python
 > pip install pyaudio
 ```
 
-##### mpl_finance: ローソク足チャートのプロット　（付録に備考あり）
+
+##### PyMC3: 確率的プログラミング
+HP: https://docs.pymc.io/
 ```
-> pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
+> conda install -c conda-forge pymc3
+
 ```
+または
+```
+> pip install pymc3
+```
+ただし，PyMC3はC/C++コンパイラ（64ビット）を使うため，次の実行を行い
+```
+import pymc3
+
+sorry, unimplemented: 64-bit mode not compiled in
+```
+このエラーが生じたならば，次を参照してください &rarr; [InstallPyMC3](./InstallPyMC3.md)
+
 
 ##### rpy2: Rのデータセットにアクセスするインタフェース （付録に備考あり）
 ```
@@ -83,7 +106,51 @@ C:> python
 > conda install tzlocal
 ```
 
+
+##### SimPy：離散事象シミュレータ
+HP: https://simpy.readthedocs.io/en/latest/
+
+HPは次のインストールを示しています。
+```
+> pip install simpy
+```
+
+pipは最新バージョンをインストールします。
+（ver.4.0.1 - 2020/04/01）
+
+condaを用いたインストールを行いたい場合，多少古いバージョン（ver.3.0.10, 2020/09/05）でも良ければ，次で複数該当サイトを見つけられます。
+```
+> anaconda search -t conda simpy
+```
+
+
+
+##### VPython：3Dグラフィックパッケージ，Jupyter, GPU対応
+HP: https://vpython.org/
+
+ANACONDA CLOUD: https://anaconda.org/vpython/vpython
+```
+> conda install -c vpython vpython
+```
+
+
+
+##### xlrd: Microsoft Excelファイルからデータを抽出
+HP: https://anaconda.org/anaconda/xlrd/
+
+```
+> conda install -c anaconda xlrd
+```
+
+
+
+
+----------------------------------------------------------------------------------------
 # 付録
+
+この付録は，記録程度に留めるためだけで，現在は用いることができないものもあります（結果の評価ができないため）。
+
+
 
 #### rpy2：Rとpandasのインタフェース
 2018年11月現在。
@@ -135,6 +202,20 @@ Python 3.6の場合は次でインストールできた。
 
 **参考：**
 pip install :https://pip.pypa.io/en/stable/reference/pip_install/ 
+
+**注意:**
+
+2020年より，新たなmplfinanceパッケージが次から提供されている。
+https://github.com/matplotlib/mplfinance
+インストールもこのURLに書かれている。これをインストールした場合，関数の呼び方（引数の与え方含めて，APIと称している）が異なるので，読者でスクリプトを書き換える必要がある。
+
+
+
+##### Seaborn：比較的綺麗なグラフ（ヒートマップ）表現
+HP: https://seaborn.pydata.org/
+
+2017年よりAnacondaに標準的に含まれるようになった。
+
 
 以上
 
