@@ -3,6 +3,32 @@
 主に，パッケージのバージョンに起因する内容
 
 
+#### Connection Failed
+Jupyter Notebookで実行中にこのメッセージが出て実行できなくなることがあります。
+
+主に，**PyMC3**で生じます。
+
+対処法として，tornadoのダウングレードを試して見て下さい（100\%の保証はできません）。2020年9月現在　tornadoの最新バージョンは6.0.4です。
+
+Anacondaを利用しているユーザは次でダウングレードします。
+```
+> conda install tornado==5.1.1
+```
+これ以外で，pipを利用する場合は次です。
+```
+> pip uninstall tornado
+> pip install tornado==5.1.1
+```
+ダウングレード後にPCを再起動してください。
+
+tornadoは，PythonのWebサーバの役割を担っており，その通信障害が生じることがあるようです。
+
+参照
+- Tronado: https://www.tornadoweb.org/en/stable/index.html
+- What’s new in Tornado 6.0: https://www.tornadoweb.org/en/stable/releases/v6.0.0.html
+- Jupyter notebookで遊んでいたら「Connecting kernel」のままkernelが起動しなかったので解決方法をメモ: https://qiita.com/Kit-Ok/items/077a4033057ba4aaf990
+- jupyter notebokは開くが、カーネルを実行時に「Connection Failed」と表示される: https://qiita.com/NameBlack/items/0f41e006b493af079afc
+
 #### SciPy, solve_ivp
 SciPy 1.3.1 で solve_ivpを使うと引数のargsでエラーが生じる。このとき，SciPyのバージョンを1.5.x以上にあげること。
 
