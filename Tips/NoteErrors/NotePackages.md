@@ -3,8 +3,8 @@
 主に，パッケージのバージョンに起因する内容
 
 
-### pymc3.traceplot()で"AttributinError" 'int' object has no attribute 'astype'
-これは，PyMC3がグラフィックで用いているarvizが，dtypeがfloat64ならば曲線，int64ならば棒グラフを描くはずが，int64に対応できていないためです。そのため，arivizのバージョンを0.9.0（2020/09/07）にアップデートしてください。
+### pymc3.traceplot()で"AttributinError" 'int' object has no attribute 'astype'　（2020/09/07）
+これは，PyMC3がグラフィックで用いているarvizが，dtypeがfloat64ならば曲線，int64ならば棒グラフを描くはずが，int64に対応できていないためです。そのため，arivizのバージョンを0.9.0にアップデートしてください。
 
 Anacondaでは，
 ```
