@@ -3,7 +3,7 @@
 主に，パッケージのバージョンに起因する内容
 
 
-#### Connection Failed
+#### Connection Failed  (2020/09/07)
 Jupyter Notebookで実行中にこのメッセージが出て実行できなくなることがあります。
 
 主に，**PyMC3**で生じます。
