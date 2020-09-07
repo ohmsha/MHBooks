@@ -3,6 +3,20 @@
 主に，パッケージのバージョンに起因する内容
 
 
+### pymc3.traceplot()で"AttributinError" 'int' object has no attribute 'astype'
+これは，PyMC3がグラフィックで用いているarvizが，dtypeがfloat64ならば曲線，int64ならば棒グラフを描くはずが，int64に対応できていないためです。そのため，arivizのバージョンを0.9.0（2020/09/07）にアップデートしてください。
+
+Anacondaでは，
+```
+> anaconda search -t conda arviz
+```
+この出力表からバージョン0.9.0のものを選びます。例えば,conda-forgeにあるとして
+```
+> anaconda show conda-forge/arviz
+```
+この表示にあるcondaを用いたインストール方法を実施してください。
+
+
 ### Connection Failed  (2020/09/07)
 Jupyter Notebookで実行中にこのメッセージが出て実行できなくなることがあります。
 
