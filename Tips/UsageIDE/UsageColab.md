@@ -216,4 +216,18 @@ Notebookの保存先は，先の例で示したGoogle Drive内のフォルダCol
 
 これを実行すれば，Googleドライブからデータを読込むことができます。
 
+-------------------------------------------------------------------
+### グラフを保存する
+
+グラフを保存するだけならば，上記のマウント操作は不要です。
+単に
+```
+import matplotlib.pyplot as plt
+from google.colab import files
+
+plt.savefig("file_name.png")
+files.download("file_name.png")
+```
+これをColabratoryで実行したら，filename.pngが個人PCにダウンロードされます。
+なお，拡張子".png"を他のものに変更したら，その画像フォーマットで保存されます。
 以上
