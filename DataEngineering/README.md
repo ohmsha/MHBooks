@@ -13,13 +13,16 @@
 ## 補足説明
 
 
-本書を補足する幾つかの説明用PDFが，このサイトにあります。
+本書を補足する幾つかの説明用PDFが，**このサイト**にあります。
 
 下記、かっこ内のファイル名が説明用PDFです。かっこが無いものは別途説明ページが開きます。
 
-これらPDFはダウンロードできます。または，ファイル名をクリックすればGitHubがその内容を表示します。
-- Visual Studio Communityのインストール（how_to_install_visual_studio_community.pdf）
-- SWIGのインストール（Install_SWIG_v1.1.pdf）
-- CMake + NMakeのインストールと使用手順（how_to_install_cmake_nmake.pdf）
-- pybind11[Win版]のインストールと使用手順,（how_to_install_pybind11_win.pdf）
-- [CuPyインストール](InstallCuPy.md)
+これらPDFはダウンロードできます。ダウンロードページで[Download]をクリックしてください。
+
+または，ファイル名を直接クリックすればGitHubがその内容を表示します。
+
+- Visual Studio Communityのインストール:[how_to_install_visual_studio_community.pdf](./how_to_install_visual_studio_community.pdf)
+- SWIGのインストール:[Install_SWIG_v1.1.pdf](./Install_SWIG_v1.1.pdf)
+- CMake + NMakeのインストールと使用手順:[how_to_install_cmake_nmake.pdf](./how_to_install_cmake_nmake.pdf)
+- pybind11[Win版]のインストールと使用手順:[how_to_install_pybind11_win.pdf](./how_to_install_pybind11_win.pdf)
+- [CuPyインストール](./InstallCuPy.md)
