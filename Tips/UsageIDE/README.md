@@ -2,7 +2,7 @@
 
 主として，Jupyter Notebook（**Notebook**と略称，**拡張子".ipynb"**）の使い方を説明します。
 
-IDEはJupyter Labとしますが，JupyterLabは幾つかのアプリケーションを管理しており，
+IDEはJupyter Labとしますが，Jupyter Labは幾つかのアプリケーションを管理しており，
 この中にNotebookやスクリプトなどがあります。
 Jupyter LabというIDEの中で，実質的な開発・実行はNotebookを用いることになります。
 
