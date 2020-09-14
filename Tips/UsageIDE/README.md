@@ -2,7 +2,7 @@
 
 主として，Jupyter Notebook（**Notebook**と略称，**拡張子".ipynb"**）の使い方を説明します。
 
-IDEはJupyter Labとしますが，JupyterLabは幾つかのアプリケーションを管理しており，
+IDEはJupyter Labとしますが，Jupyter Labは幾つかのアプリケーションを管理しており，
 この中にNotebookやスクリプトなどがあります。
 Jupyter LabというIDEの中で，実質的な開発・実行はNotebookを用いることになります。
 
@@ -16,14 +16,14 @@ Jupyter LabというIDEの中で，実質的な開発・実行はNotebookを用�
 
 再度述べますが，JupyterLabの中でNotebookを開発実行する，という枠組みで説明を行います。
 
-1. JupyterLabの起動
+1. JupyterLab/Jupyter Notebookの起動
 2. [Notebookの使い方](./UsageNotebook.md)
 3. [Colabの使い方](./UsageColab.md)
 ------------------------------------------------------------------------------
-## 1. JupyterLabの起動
+## 1. JupyterLab/Jupyter Notebookの起動
 
-JupyterLabの起動は，Jupyter Notebookでも同じです。
-よって，下記の説明で"JupyterLab"を"Jupyter Notebook"と置き換えることができます。
+Windows10のもとでのJupyterLabの起動の仕方を説明します。
+Jupyter Notebookでも同じで，下記の説明で"JupyterLab"を"Jupyter Notebook"と置き換えるだけです。
 
 2つの起動方法を示します。
 いずれも，Anacondaがインストールされており，**Anacondaへのパスが通っている**ことを前提とします。
