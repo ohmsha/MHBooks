@@ -2,14 +2,14 @@
 
 主として，Jupyter Notebook（**Notebook**と略称，**拡張子".ipynb"**）の使い方を説明します。
 
-IDEはJupyter Labとしますが，Jupyter Labは幾つかのアプリケーションを管理しており，
+IDEはJupyterLabとしますが，JupyterLabは幾つかのアプリケーションを管理しており，
 この中にNotebookやスクリプトなどがあります。
-Jupyter LabというIDEの中で，実質的な開発・実行はNotebookを用いることになります。
+JupyterLabというIDEの中で，実質的な開発・実行はNotebookを用いることになります。
 
 クラウドでのIDEとしてGoogle Colaboratory（**Colab**と略称）の簡単な説明を行います。
 この書き方と実行はNotebookとほぼ同じですので，Notebookの書き方や実行の仕方を知っておいてください。
 
-最後に，開発環境はJupyter NotebookでなくJupyter Labに移行するとのアナウンスがあることをお知らせします。
+最後に，開発環境はJupyter NotebookでなくJupyterLabに移行するとのアナウンスがあることをお知らせします。
 
 - JupyterLabアナウンス: https://github.com/jupyterlab/jupyterlab
 - JupyterLabを使ってみよう: https://esrijapan.github.io/arcgis-dev-resources/tips/python/python-api-jnlabsetup/
@@ -23,7 +23,7 @@ Jupyter LabというIDEの中で，実質的な開発・実行はNotebookを用�
 ## 1. JupyterLab/Jupyter Notebookの起動
 
 Windows10のもとでのJupyterLabの起動の仕方を説明します。
-Jupyter Notebookでも同じで，下記の説明で"JupyterLab"を"Jupyter Notebook"と置き換えるだけです。
+Jupyter Notebookの起動も同じで，下記の説明で"JupyterLab"を"Jupyter Notebook"と置き換えるだけです。
 
 2つの起動方法を示します。
 いずれも，Anacondaがインストールされており，**Anacondaへのパスが通っている**ことを前提とします。
