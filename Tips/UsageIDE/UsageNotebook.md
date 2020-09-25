@@ -6,6 +6,10 @@ Notebook（Jupyter Notebookの略）の起動は**1. JupyterLabの起動**を参
 起動の後に，次のサイトに使い方がよく書かれています。
 - [Jupyter Notebookの使い方を覚えればPythonを使いこなせるのか？ (ファイル名のrenameなどがある）](https://attracter.tokyo/tech/python3/)
 - [図解！Jupyter Notebookを徹底解説！(インストール・使い方・起動・終了方法)](https://ai-inter1.com/jupyter-notebook/)
+- [さくらのナレッジ > エンジニア向け > 非エンジニアでも使いやすい高機能なPython環境「IPython」「Jupyter」を使ってみよう](https://knowledge.sakura.ad.jp/17727/)
+
+次はJupyterの使い方というよりは，ArcGIS（空間データの作成、管理、共有、分析を行う組織向けのプラットフォーム）をJupyterLabで開発している事例です。
+- [ArcGIS API for Python > Jupyter Lab を使ってみよう](https://esrijapan.github.io/arcgis-dev-resources/tips/python/python-api-jnlabsetup/)
 
 ### 備考：開発のTips
 - デバッグは大抵，計算途中の変数の値を知ることにあります。この場合，適当な場所（筆者はよくNotebookの最後）にセルを追加（キーボード"b"を押すと，"b"elowにセルを追加）して，ここで，変数の値を確かめています。
