@@ -36,9 +36,9 @@ HP: http://rasbt.github.io/mlxtend/
 
 
 
-##### mpl_finance: ローソク足チャートのプロット　（付録に備考あり）
+##### mplfinance: ローソク足チャートのプロット　（旧 mpl_finance, 付録に備考あり）
 ```
-> pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
+> pip install --upgrade mplfinance
 ```
 
 ##### OpenCV: 画像処理，認識
@@ -199,7 +199,7 @@ Python 3.6の場合は次でインストールできた。
 
 
 #### mpl_finance ：ローソク足チャート
-　matplotlib v.2.1.2 までは，matplotlib.financeの中にローソク足チャートを描くcandlestick_ohlcがあった。v.2.2.2からは，matplotlibからは無くなり，上記のパッケージに移行，これをインストールして使用するようになった。移行の説明は次にある：https://matplotlib.org/api/finance_api.html
+　matplotlib v.2.1.2 までは，matplotlib.financeの中のmpl_financeにローソク足チャートを描くcandlestick_ohlcがあった。v.2.2.2からは，matplotlibからfinanceそのものが無くなった。この説明は次にある：https://matplotlib.org/api/finance_api.html
  github のリポジトリからpipを用いてインストールする方法は
 ```
 > pip install git+url
@@ -214,7 +214,9 @@ pip install :https://pip.pypa.io/en/stable/reference/pip_install/
 
 2020年より，新たなmplfinanceパッケージが次から提供されている。
 https://github.com/matplotlib/mplfinance
-インストールもこのURLに書かれている。これをインストールした場合，関数の呼び方（引数の与え方含めて，APIと称している）が異なるので，読者でスクリプトを書き換える必要がある。
+インストールもこのURLに書かれている。これをインストールした場合，関数の呼び方（引数の与え方含めて，APIと称している）が異なる。
+現在，提供しているTSA_StockPrices_mplfinance.ipynbは，新しいAPIに書き換えている。
+
 
 
 
