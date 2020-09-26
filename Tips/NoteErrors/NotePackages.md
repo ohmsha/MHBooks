@@ -2,6 +2,9 @@
 
 主に，パッケージのバージョンに起因する内容を記します。
 
+### Cartopyを用いて地球儀が表示されない
+2020年９月現在，matplotlibのバージョンが3.3.1より低い場合には，このバージョンにアップグレードしてください。
+
 ### JupyterLabでアニメーションが表示されない
 2020年９月現在，JupyterLabを起動して，Jupyter Notebookの中でmatplotlibやVPythonのアニメーションが表示されない場合，
 いったんJupyterLabを終了して，改めてJupyter notebookを起動して，このもとでアニメーションを実行してください。
