@@ -65,8 +65,10 @@ pipの場合は，次を参照：https://scipy.org/
  statsmodelsのバージョンの違いにより，statsmodels.tsa.arima_process.arma_generate_sample()のAPIが異なるため，これに対処できるよう"ARMA_ParmeterEstimation.ipynb"を変更したので，DownloadページからNotebookを再度ダウンロードしてください。
 
 
-### mpl_financeのバージョン
-mpl_financeの使い方で，異なるパッケージmplfinanceもあり（2020年３月現在），この使用の注意は，"TSA_StockPrices.ipynb"に記述したので，DownloadページからNotebookを再度ダウンロードしてください。
+### mplfinanceのバージョン
+以前はアンダーラインの入ったmpl_financeパッケージを使用していました。
+しかし，mpl_financeが廃止され，新たなパッケージmplfinanceに変更されました（2020年３月現在）。
+新たなパッケージのインストールなどは，本サポートサイトの[Tips/InstallPackages](https://github.com/ohmsha/MHBooks/tree/master/Tips/InstallPackages)に記載，さらに"TSA_StockPrices.ipynb"にも記しています。旧来のNotebookファイルを使用している方はDownloadページからNotebookを改めてダウンロードしてください。
 
 
 ### Microsoft Excelとpandas.read_excel()
