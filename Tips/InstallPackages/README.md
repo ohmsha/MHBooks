@@ -21,25 +21,84 @@ Windowsの場合は，管理者権限で行えるようにしてください。
 
 この要求が出た場合，上記のとおりにpipのアップグレードを行った後にパッケージのインストールを行ってください。
 
---------------------------------------
-##### Cartopy：地球の地理空間データを得て，投影法や線・ポリゴンなどの表現法を選べる
+---------------------------------------------------------------------------
+
+## パッケージの紹介
+アルファベット順
+
+---------------------------------------------------------------------------
+##### Axelrod：エージェントベースモデル
+囚人のジレンマなどで用いる。
+
+HP: https://pypi.org/project/Axelrod/
+```
+> pip install axelrod
+```
+
+
+##### Cartopy：地球の地理空間データを得て，投影法や線・ポリゴンなどのプロット
 HP: https://scitools.org.uk/cartopy/
 ```
 > conda install -c conda-forge cartopy
 ```
 
-##### mlxtend：パターン認識などで結果のプロットを簡単に行う
+##### DEAP：遺伝的アルゴリズム
+HP: https://deap.readthedocs.io/
+```
+> pip install deap
+```
+
+
+##### japanize-matplotlib：matplotlibの日本語表示化
+matplotlibの日本語表示が必要な場合にインストールしてください。
+
+HP: https://github.com/uehara1414/japanize-matplotlib
+```
+> pip install japanize-matplotlib
+```
+
+
+
+##### MeCab：形態素解析エンジン
+HP: http://rasbt.github.io/mlxtend/
+```
+> pip install mecab-python3
+```
+本書は，MeCapと共に，次の形態素解析器MeCab用の解析用辞書の軽量版も一緒にインストールして使っています。
+
+**UniDic** HP: https://unidic.ninjal.ac.jp/about_unidic
+```
+> pip install unidic-lite
+```
+
+
+##### mlxtend：パターン認識などに適する見た目の良いプロット
 HP: http://rasbt.github.io/mlxtend/
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge mlxtend
 ```
 
 
-
 ##### mplfinance: ローソク足チャートのプロット　（旧 mpl_finance, 付録に備考あり）
 ```
 > pip install --upgrade mplfinance
 ```
+
+##### NetworkX：グラフ理論で用いるノードとエッジで表現されるグラフの作成とプロット
+HP:http://networkx.github.io/
+
+HPは次のインストールを示しています。
+```
+> pip install networkx
+```
+
+condaを用いたインストールは次です。
+
+```
+> conda install -c anaconda networkx
+```
+
+
 
 ##### OpenCV: 画像処理，認識
 HP: https://opencv.org/
@@ -70,7 +129,7 @@ HPは次のインストールを示しています。
 ```
 > pip install PuLP
 ```
-condaを用いたインストールを行いたい場合は次です。
+condaを用いたインストールは次です。
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge pulp
 ```
@@ -142,7 +201,7 @@ ANACONDA CLOUD: https://anaconda.org/vpython/vpython
 
 
 
-##### xlrd: Microsoft Excelファイルからデータを抽出
+##### xlrd: Microsoft Excelファイルからデータの抽出
 HP: https://anaconda.org/anaconda/xlrd/
 
 ```
