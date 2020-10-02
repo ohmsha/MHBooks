@@ -79,7 +79,7 @@ HP: http://rasbt.github.io/mlxtend/
 > conda install mlxtend
 ```
 
-pipを使いたい場合は
+pipを用いたインストールは次です。
 ```
 pip install mlxtend 
 ```
