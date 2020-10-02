@@ -37,7 +37,7 @@ HP: https://pypi.org/project/Axelrod/
 ```
 
 
-##### Cartopy：地球の地理空間データを得て，投影法や線・ポリゴンなどのプロット
+##### Cartopy：地球の地理空間データの提供，投影法や線・ポリゴンなどのプロット
 HP: https://scitools.org.uk/cartopy/
 ```
 > conda install -c conda-forge cartopy
@@ -65,7 +65,7 @@ HP: http://rasbt.github.io/mlxtend/
 ```
 > pip install mecab-python3
 ```
-本書は，MeCapと共に，次の形態素解析器MeCab用の解析用辞書の軽量版も一緒にインストールして使っています。
+MeCapと共に次の形態素解析器MeCab用の解析用辞書の軽量版も一緒にインストールして使っています。
 
 **UniDic** HP: https://unidic.ninjal.ac.jp/about_unidic
 ```
