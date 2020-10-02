@@ -76,7 +76,12 @@ MeCapと共に次の形態素解析器MeCab用の解析用辞書の軽量版も�
 ##### mlxtend：パターン認識などに適する見た目の良いプロット
 HP: http://rasbt.github.io/mlxtend/
 ```
-> conda install --channel https://conda.anaconda.org/conda-forge mlxtend
+> conda install mlxtend
+```
+
+pipを使いたい場合は
+```
+pip install mlxtend 
 ```
 
 
