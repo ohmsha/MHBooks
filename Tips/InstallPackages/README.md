@@ -86,6 +86,7 @@ pip install mlxtend
 
 
 ##### mplfinance: ローソク足チャートのプロット　（旧 mpl_finance, 付録に備考あり）
+HP: https://github.com/matplotlib/mplfinance
 ```
 > pip install --upgrade mplfinance
 ```
