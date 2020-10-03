@@ -61,7 +61,7 @@ HP: https://github.com/uehara1414/japanize-matplotlib
 
 
 ##### MeCab：形態素解析エンジン
-HP: http://rasbt.github.io/mlxtend/
+HP: http://taku910.github.io/mecab/
 ```
 > pip install mecab-python3
 ```
