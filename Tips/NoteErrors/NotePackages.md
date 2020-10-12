@@ -2,6 +2,17 @@
 
 主に，パッケージのバージョンに起因する内容を記します。
 
+
+### import pymc3 as pm　で次のエラーが出る。
+##### AttributeError: module 'xarray.core.formatting_html' has no attribute 'CSS_STYLE'
+2020年10月現在，きちんとした原因分析は行っていませんが，
+pymc3が依存する幾つかのパッケージ; arviz, conda, theanoなどの各アップグレードした結果の整合性が取れないためのようです。
+そこで，
+```
+> conda update --all
+```
+を実行すると，整合性を取って各バージョンのアップデータ，または，ダウングレードが行われて，エラーが解決します。
+
 ### Cartopyを用いて地球儀が表示されない
 2020年９月現在，matplotlibのバージョンが3.3.1より低い場合には，このバージョンにアップグレードしてください。
 
@@ -26,7 +37,8 @@ Anacondaでは，
 この表示にあるcondaを用いたインストール方法を実施してください。
 
 
-### Connection Failed  (2020/09/07)
+### Connection Failed 
+2020年9月7日現在，
 Jupyter Notebookで実行中に，connection failedのメッセージが出て実行できなくなることがあります。
 
 主に，**PyMC3**で生じます。
