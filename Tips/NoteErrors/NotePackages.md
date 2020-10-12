@@ -23,7 +23,8 @@ pymc3が依存する幾つかのパッケージ; arviz, conda, theanoなどの�
 詳細な原因は不明ですが，JupyterLabはまだIPythonとのインタフェースが不十分な点があるようです。
 
 
-### pymc3.traceplot()で"AttributinError" 'int' object has no attribute 'astype'　（2020/09/07）
+### pymc3.traceplot()で"AttributinError" 'int' object has no attribute 'astype'　
+2020年9月7日現在，
 これは，PyMC3がグラフィックで用いているarvizが，dtypeがfloat64ならば曲線，int64ならば棒グラフを描くはずが，int64に対応できていないためです。そのため，arivizのバージョンを0.9.0にアップデートしてください。
 
 Anacondaでは，
