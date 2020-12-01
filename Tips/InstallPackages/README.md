@@ -1,14 +1,15 @@
 # 書籍で用いるパッケージのインストールの説明
 #### Anacondaでは足りないパッケージのインストールの説明
-#### ただし，本サポートページが扱う書籍全てに渡っているので，必要なものだけをインストールしてください。
+#### ただし，本サポートページが扱う複数の書籍全てに渡っているので，必要なものだけをインストールしてください。
 
 インストールの途中で Proceed ([y]/n) ? と聞かれたら ‘y’を入力します。
 
 なお，“>” は<strong>プロンプト</strong>を表します。
 Windowsの場合は，管理者権限で行えるようにしてください。
 
-インストールの仕方は主にcondaを使用します（Anacondaインストールを前提としているため）。
-しかし，pipでインストールされる場合もあります。
+インストールの仕方は主に**conda**を使用します（Anacondaインストールを前提としているため）。
+
+しかし，**pip**でインストールする場合もあります。
 この際，幾つかのパッケージが次のようにpipのアップグレードを要求されることがあります。
 ```
 >python -m pip install --upgrade pip
@@ -21,25 +22,90 @@ Windowsの場合は，管理者権限で行えるようにしてください。
 
 この要求が出た場合，上記のとおりにpipのアップグレードを行った後にパッケージのインストールを行ってください。
 
---------------------------------------
-##### Cartopy：地球の地理空間データを得て，投影法や線・ポリゴンなどの表現法を選べる
+---------------------------------------------------------------------------
+
+## パッケージの紹介
+アルファベット順
+
+---------------------------------------------------------------------------
+##### Axelrod：エージェントベースモデル
+囚人のジレンマのモデルを提供し，様々なジレンマの戦略を定義できる。
+
+HP: https://pypi.org/project/Axelrod/
+```
+> pip install axelrod
+```
+
+
+##### Cartopy：地球の地理空間データの提供，投影法や線・ポリゴンなどのプロット
 HP: https://scitools.org.uk/cartopy/
 ```
 > conda install -c conda-forge cartopy
 ```
 
-##### mlxtend：パターン認識などで結果のプロットを簡単に行う
+##### DEAP：遺伝的アルゴリズム
+HP: https://deap.readthedocs.io/
+```
+> pip install deap
+```
+
+
+##### japanize-matplotlib：matplotlibの日本語表示化
+matplotlibの日本語表示が必要な場合にインストールしてください。
+
+HP: https://github.com/uehara1414/japanize-matplotlib
+```
+> pip install japanize-matplotlib
+```
+
+
+
+##### MeCab：形態素解析エンジン
+HP: http://taku910.github.io/mecab/
+```
+> pip install mecab-python3
+```
+MeCapと共に次の形態素解析器MeCab用の解析用辞書の軽量版も一緒にインストールして使っています。
+
+**UniDic** HP: https://unidic.ninjal.ac.jp/about_unidic
+```
+> pip install unidic-lite
+```
+
+
+##### mlxtend：パターン認識などに適する見た目の良いプロット
 HP: http://rasbt.github.io/mlxtend/
 ```
-> conda install --channel https://conda.anaconda.org/conda-forge mlxtend
+> conda install mlxtend
+```
+
+pipを用いたインストールは次です。
+```
+pip install mlxtend 
 ```
 
 
+##### mplfinance: ローソク足チャートのプロット　（旧 mpl_finance, 付録に備考あり）
+HP: https://github.com/matplotlib/mplfinance
+```
+> pip install --upgrade mplfinance
+```
 
-##### mpl_finance: ローソク足チャートのプロット　（付録に備考あり）
+##### NetworkX：グラフ理論で用いるノードとエッジで表現されるグラフの作成とプロット
+HP:http://networkx.github.io/
+
+HPは次のインストールを示しています。
 ```
-> pip install https://github.com/matplotlib/mpl_finance/archive/master.zip
+> pip install networkx
 ```
+
+condaを用いたインストールは次です。
+
+```
+> conda install -c anaconda networkx
+```
+
+
 
 ##### OpenCV: 画像処理，認識
 HP: https://opencv.org/
@@ -70,7 +136,7 @@ HPは次のインストールを示しています。
 ```
 > pip install PuLP
 ```
-condaを用いたインストールを行いたい場合は次です。
+condaを用いたインストールは次です。
 ```
 > conda install --channel https://conda.anaconda.org/conda-forge pulp
 ```
@@ -142,7 +208,7 @@ ANACONDA CLOUD: https://anaconda.org/vpython/vpython
 
 
 
-##### xlrd: Microsoft Excelファイルからデータを抽出
+##### xlrd: Microsoft Excelファイルからデータの抽出
 HP: https://anaconda.org/anaconda/xlrd/
 
 ```
@@ -199,7 +265,7 @@ Python 3.6の場合は次でインストールできた。
 
 
 #### mpl_finance ：ローソク足チャート
-　matplotlib v.2.1.2 までは，matplotlib.financeの中にローソク足チャートを描くcandlestick_ohlcがあった。v.2.2.2からは，matplotlibからは無くなり，上記のパッケージに移行，これをインストールして使用するようになった。移行の説明は次にある：https://matplotlib.org/api/finance_api.html
+　matplotlib v.2.1.2 までは，matplotlib.financeの中のmpl_financeにローソク足チャートを描くcandlestick_ohlcがあった。v.2.2.2からは，matplotlibからfinanceそのものが無くなった。この説明は次にある：https://matplotlib.org/api/finance_api.html
  github のリポジトリからpipを用いてインストールする方法は
 ```
 > pip install git+url
@@ -214,7 +280,9 @@ pip install :https://pip.pypa.io/en/stable/reference/pip_install/
 
 2020年より，新たなmplfinanceパッケージが次から提供されている。
 https://github.com/matplotlib/mplfinance
-インストールもこのURLに書かれている。これをインストールした場合，関数の呼び方（引数の与え方含めて，APIと称している）が異なるので，読者でスクリプトを書き換える必要がある。
+インストールもこのURLに書かれている。これをインストールした場合，関数の呼び方（引数の与え方含めて，APIと称している）が異なる。
+現在，提供しているTSA_StockPrices_mplfinance.ipynbは，新しいAPIに書き換えている。
+
 
 
 
