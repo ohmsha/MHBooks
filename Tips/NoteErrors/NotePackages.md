@@ -2,8 +2,8 @@
 
 主に，パッケージのバージョンに起因する内容を記します。
 
-### arma_generate_sample()を用いて、
-
+### arma_generate_sample()を用いて、an unexpected keyword argument sizeが表示
+あああああ
 
 ### Cartopyを用いて地球儀が表示されない
 2020年９月現在，matplotlibのバージョンが3.3.1より低い場合には，このバージョンにアップグレードしてください。
