@@ -3,7 +3,13 @@
 主に，パッケージのバージョンに起因する内容を記します。
 
 ### arma_generate_sample()を用いて、an unexpected keyword argument sizeが表示
-あああああ
+statsmodels ver 0.11.1より、arma_generate_sample()の引数の使用方法が変わりました。
+
+旧バージョンのsigmaがscaleに変更、また、distrvの関数の与え方も変わりました。
+0.11.1からは、例えば次のように使用します。
+
+dist = stats.norm(loc=0, scale=1.0).rvs <br>
+y = arma_generate_sample(ar, ma, nsample=nobs, distrvs=dist, burnin=500)
 
 ### Cartopyを用いて地球儀が表示されない
 2020年９月現在，matplotlibのバージョンが3.3.1より低い場合には，このバージョンにアップグレードしてください。
