@@ -2,7 +2,7 @@
 
 主に，パッケージのバージョンに起因する内容を記します。
 
-### arma_generate_sample()を用いて、an unexpected keyword argument sizeが表示
+### arma_generate_sample()を用いて、an unexpected keyword argument 'size'が表示される
 statsmodels ver 0.11.1より、arma_generate_sample()の引数の使用方法が変わりました。
 
 旧バージョンのsigmaがscaleに変更、また、distrvの関数の与え方も変わりました。
