@@ -12,7 +12,7 @@
 
 - **データサイエンス教本** &rarr; フォルダ [DataScience](./DataScience)の中を見てください。
 - **Pythonデータエンジニアリング入門** &rarr; フォルダ[DataEngineering](./DataEngineering)の中を見てください。
-- **Pythonコンピュータシミュレーション** &rarr; フォルダ[ComputerSimulation](./ComputerSimulation)の中を見てください。
+- **Pythonコンピュータシミュレーション入門** &rarr; フォルダ[ComputerSimulation](./ComputerSimulation)の中を見てください。
 
 ---
 ### 全ての書籍の共通事項
