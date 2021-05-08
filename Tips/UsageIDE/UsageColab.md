@@ -264,7 +264,7 @@ files.download("file_name.png")
 ```
 !pip install package_name==n1.n2.n3
 ```
-ここに、n1,n2,n3はバージョン番号を表す正の整数
+ここに、n1,n2,n3はバージョン番号を表す非負の整数
 
 #### OS、CPUのスペック、メモリの確認
 ```
