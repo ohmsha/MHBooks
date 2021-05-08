@@ -18,7 +18,7 @@ PC以外で，スマホ＋Chromeの動作も確認していますが，見にく
 #### 目次
 - 概要
 - さあ始めよう
-
+- 便利に使うTips（特にバージョン管理に注意）
 ---------------------------------------------------------------------------
 # 概要
 #### Colaboratoryを使用できるための必須条件
@@ -250,4 +250,64 @@ files.download("file_name.png")
 ```
 これをColabratoryで実行したら，filename.pngが個人PCにダウンロードされます。
 なお，拡張子".png"を他のものに変更したら，その画像フォーマットで保存されます。
-以上
+
+---------------------------------------------------------------------------
+# 便利に使うTips（特にバージョン管理に注意）
+
+#### パッケージのバージョンを見る
+```
+!pip show package_name
+```
+注意： !pip list とすると、全てのパッケージが表示される。
+
+#### パッケージ（ライブラリ）のインストール（バージョン指定）
+```
+!pip install package_name==n1.n2.n3
+```
+ここに、n1,n2,n3はバージョン番号を表す正の整数
+
+#### OS、CPUのスペック、メモリの確認
+```
+!cat /etc/issue
+```
+```
+!cat /proc/cpuinfo 
+```
+```
+!free -h
+```
+
+#### Google Driveのマウント（mount, Colabからアクセスできるようにすること）
+Colabから、ご自身のGoogle Driveと連携するには次のコマンドをColabのセルで実行します。
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+これを実行すると、次の表示が現れて、認証コード（authorization code）の入力が求められます。
+```
+Go to this URL in a browser: https://accounts.google.com/o/oauth2/auth?client_id=xxxxx
+Enter your authorization code:
+```
+上記のURLリンクをクリックするとGoogleアカウントを選択する画面が現れるので，使用するアカウントを選択します。
+続いてColabにGoogle Driveのアクセスの許可を与えて良いかの確認画面において「許可」をクリックします。
+この後に「このコードをコピーし，アプリケーションに切り替えて貼り付けてください。」という画面にコードが表示されます。
+このコードをコピーして、先ほど表示されたテキストの認証コードの入力を求める「Enter your authorization code:」にコピーしたコードを貼り付けます。
+この後は/content/drive というディレクトリのMy Driveディレクトリ以下に自分のGoogle Driveのファイルがマウント（mount）されます。
+
+正しくマウントされれば，Colab上で次のコマンドを実行すると，Google DriveのMy Driveのファイルやフォルダが表示されます。
+```
+!ls '/content/drive/My Drive'
+```
+
+#### matplotlibの日本語化
+```
+!pip install japanize-matplotlib
+```
+この後に，スクリプト中で例えば次のように使用する。
+```
+import matplotlib.pyplot as plt
+import japanize_matplotlib
+plt.plot([1, 2, 3, 4])
+plt.xlabel('簡単なグラフ')
+plt.show()
+```
