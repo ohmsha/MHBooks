@@ -11,6 +11,13 @@ statsmodels ver 0.11.1より、arma_generate_sample()の引数の使用方法が
 dist = stats.norm(loc=0, scale=1.0).rvs <br>
 y = arma_generate_sample(ar, ma, nsample=nobs, distrvs=dist, burnin=500)
 
+注意：Colaboratoryでは，statsmodelsのバージョンは0.10.2（2021年5月8日現在，古いバージョンがディフォルトで使用される）のため，上記のスクリプト実行はエラーが生じます。<br>
+この対処法は，スクリプト実行前に次のコマンドをColaboratory上で実行してください。
+```
+!pip install statsmodels==0.11.1
+```
+
+
 ### Cartopyを用いて地球儀が表示されない
 2020年９月現在，matplotlibのバージョンが3.3.1より低い場合には，このバージョンにアップグレードしてください。
 
