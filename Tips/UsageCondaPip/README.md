@@ -273,7 +273,7 @@ Python2.7系とPython3系の両方を有している場合，
 
 Reference Guid https://pip.pypa.io/en/stable/reference/ 
 
-####pip自身のアップグレード
+#### pip自身のアップグレード
 ```
 > python -m pip install --upgrade pip
 ```
