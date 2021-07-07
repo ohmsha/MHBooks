@@ -9,7 +9,7 @@ http://www.kunitomo-lab.sakura.ne.jp/2021-3-3Open(S).pdf
 訳者「まえがき」に，日本で流布している多くの大学初級者向けの教科書よりもむしろ適切であると感じられたことをきっかけに、著者より，CCI(Creative Commons License)に違反しない限りという条件のもとでの許可をとり，日本語版の提供に踏み切ったとのこと。日本統計協会のご厚意もあるとのこと。
 この書籍の原著
 PDFはCCIの条件下で，次より自由にダウンロード可能である。https://www.openintro.org/book/os/
-	- この英語版（[2021-3-3Open(S).pdf](./2021-3-3Open.pdf））と日本語版（openintro-statistics-sample.pdf）を一つ上のページにアップしています。
+	- 英語版（2021-3-3Open.pdf）と日本語版（openintro-statistics-sample.pdf）を一つ上のページにアップしています。
 - 深層学習 ヤン・ルカン氏（ニューヨーク大学）の講義：https://atcold.github.io/pytorch-Deep-Learning/ja/
 
 Python
