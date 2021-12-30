@@ -18,9 +18,9 @@ page 144 【スクリプトの説明】最後の行
 - 「目的関数は最後に与える。」 --> 「演算子を含まない式が目的関数を表す。通常は，最後または最初に記述する。」
 
 page 145 - 146<br>
-x1 = pulp.LpVariable(,,,, 0, 2000, cat=,,,,)
-x2 = pulp.LpVariable(,,,, 0, 3000, cat=,,,,)
-x3 = pulp.LpVariable(,,,, 0, 1000, cat=,,,,)
+x1 = pulp.LpVariable(,,,, 0, 2000, cat=,,,,)<br>
+x2 = pulp.LpVariable(,,,, 0, 3000, cat=,,,,)<br>
+x3 = pulp.LpVariable(,,,, 0, 1000, cat=,,,,)<br>
 x1, x2, x3はジュース缶の本数を表し，上限を設ける必要は無いので，上限は全て"None"となります。ZIPファイルで提供しているNotebookの中のスクリプトは既に変更しました。
 
 
