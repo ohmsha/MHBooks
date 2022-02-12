@@ -24,6 +24,8 @@ x2 = pulp.LpVariable(,,,, 0, 3000, cat=,,,,)<br>
 x3 = pulp.LpVariable(,,,, 0, 1000, cat=,,,,)<br>
 x1, x2, x3はジュース缶の本数を表し，上限を設ける必要は無いので，上限は全て"None"となります。ZIPファイルで提供しているNotebookの中のスクリプトは既に変更しました。
 
+page 181
+- Graphvix HP --> Graphviz HP
 
 #### 【第1版第3刷】
 page 76 下から2行目
