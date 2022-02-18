@@ -14,3 +14,4 @@ PDFはCCIの条件下で，次より自由にダウンロード可能である�
 
 Python
 - 東大、京大のPython教科書、Pythonチートシート、初心者向けTellus学習コースなど　https://www.atmarkit.co.jp/ait/articles/2105/26/news025.html
+- 三谷純先生，　[「Python ゼロからはじめるプログラミング」](https://www.shoeisha.co.jp/book/detail/9784798169460)の[副教材](https://mitani.cs.tsukuba.ac.jp/book_support/python/)　このPPTをアップしました。
