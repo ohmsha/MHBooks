@@ -59,6 +59,22 @@ HP: https://graphviz.org/
 > pip install deap
 ```
 
+
+
+##### ipywidgets：Notebook 用 GUI 部品
+
+HP: https://ipywidgets.readthedocs.io/
+```
+> conda install -c conda-forge ipywidgets
+```
+または
+```
+> pip install ipywidgets
+```
+
+
+
+
 ##### japanize-matplotlib：matplotlibの日本語表示化
 matplotlibの日本語表示が必要な場合にインストールしてください。
 
@@ -67,6 +83,12 @@ HP: https://github.com/uehara1414/japanize-matplotlib
 > pip install japanize-matplotlib
 ```
 
+
+##### lxml：XML/HTMLデータの解析/生成ツール
+HP: https://lxml.de/
+```
+> conda install -c anaconda lxml
+```
 
 
 ##### MeCab：形態素解析エンジン
