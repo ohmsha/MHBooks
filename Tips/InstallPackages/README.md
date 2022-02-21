@@ -49,6 +49,15 @@ HP: https://deap.readthedocs.io/
 > pip install deap
 ```
 
+##### Graphvix：構造情報を抽象的なグラフやネットワークの描画
+HP: https://graphviz.org/
+```
+> conda install -c conda-forge python-graphviz
+```
+または
+```
+> pip install deap
+```
 
 ##### japanize-matplotlib：matplotlibの日本語表示化
 matplotlibの日本語表示が必要な場合にインストールしてください。
