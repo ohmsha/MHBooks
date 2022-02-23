@@ -117,7 +117,7 @@ HP: http://rasbt.github.io/mlxtend/
 
 pipを用いたインストールは次です。
 ```
-pip install mlxtend 
+> pip install mlxtend 
 ```
 
 
