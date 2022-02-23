@@ -28,6 +28,14 @@ Windowsの場合は，管理者権限で行えるようにしてください。
 アルファベット順
 
 ---------------------------------------------------------------------------
+##### ACO-Pants：アントコロニー最適化
+蟻の採餌行動の際の経路生成過程にヒントを得た探索手法。
+
+HP: https://pypi.org/project/ACO-Pants/
+```
+> pip install ACO-Pants
+```
+
 ##### Axelrod：エージェントベースモデル
 囚人のジレンマのモデルを提供し，様々なジレンマの戦略を定義できる。
 
@@ -60,7 +68,6 @@ HP: https://graphviz.org/
 ```
 
 
-
 ##### ipywidgets：Notebook 用 GUI 部品
 
 HP: https://ipywidgets.readthedocs.io/
@@ -71,8 +78,6 @@ HP: https://ipywidgets.readthedocs.io/
 ```
 > pip install ipywidgets
 ```
-
-
 
 
 ##### japanize-matplotlib：matplotlibの日本語表示化
