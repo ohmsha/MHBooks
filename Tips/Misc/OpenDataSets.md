@@ -145,6 +145,12 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 [](コメントアウト-------------------------------------------------------------------------------)
 ## 【分類2】
 
+### SSDSE（教育用標準データセット：Standardized Statistical Data Set for Education） 
+- https://www.nstac.go.jp/use/literacy/ssdse/
+- 上記は，Webサイト「統計データ分析コンペティション」（https://www.nstac.go.jp/statcompe/）の下にある。
+
+
+
 ### 総務省統計局 
 - http://www.stat.go.jp/
 - 労働力調査　長期時系列データ http://www.stat.go.jp/data/roudou/longtime/03roudou.htm
