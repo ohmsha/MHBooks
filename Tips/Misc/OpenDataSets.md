@@ -147,7 +147,7 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 
 ### SSDSE（教育用標準データセット：Standardized Statistical Data Set for Education） 
 - https://www.nstac.go.jp/use/literacy/ssdse/
-- 上記は，Webサイト「統計データ分析コンペティション」（https://www.nstac.go.jp/statcompe/）　の下にある。
+- 上記は，次のWebサイトの中にある。「統計データ分析コンペティション」（https://www.nstac.go.jp/statcompe/）
 
 
 
