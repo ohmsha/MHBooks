@@ -4,6 +4,7 @@
 - [データサイエンス教本 - Pythonで学ぶ統計分析・パターン認識・深層学習・信号処理・時系列データ分析](https://www.ohmsha.co.jp/book/9784274222900/)
 - [Pythonデータエンジニアリング入門 - 高速化とデバイスデータアクセスの基本と応用](https://www.ohmsha.co.jp/book/9784274225345/)
 - [Pythonコンピュータシミュレーション入門、人文・自然・社会科学の数理モデル](https://www.ohmsha.co.jp/book/9784274226984/)
+- [Python意思決定の数理]
 ---
 ### 各書のプログラムの取得と正誤表
 
@@ -13,6 +14,8 @@
 - **データサイエンス教本** &rarr; フォルダ [DataScience](./DataScience)の中を見てください。
 - **Pythonデータエンジニアリング入門** &rarr; フォルダ[DataEngineering](./DataEngineering)の中を見てください。
 - **Pythonコンピュータシミュレーション入門** &rarr; フォルダ[ComputerSimulation](./ComputerSimulation)の中を見てください。
+- **Python意思決定の数理** &rarr; フォルダ[DecisionMaking](./DecisionMaking)の中を見てください。
+
 
 ---
 ### 全ての書籍の共通事項
