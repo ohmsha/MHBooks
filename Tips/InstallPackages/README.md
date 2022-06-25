@@ -127,6 +127,15 @@ HP: https://github.com/matplotlib/mplfinance
 > pip install --upgrade mplfinance
 ```
 
+##### Nashpy: Nash均衡を求める
+HP: https://nashpy.readthedocs.io/
+```
+> pip install nashpy
+```
+
+
+
+
 ##### NetworkX：グラフ理論で用いるノードとエッジで表現されるグラフの作成とプロット
 HP:http://networkx.github.io/
 
