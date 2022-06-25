@@ -51,6 +51,12 @@ HP: https://scitools.org.uk/cartopy/
 > conda install -c conda-forge cartopy
 ```
 
+##### CriticalPath：PERTのクリティカルパスを求める
+HP: https://pypi.org/project/criticalpath/
+```
+> pip install criticalpath
+```
+
 ##### DEAP：遺伝的アルゴリズム
 HP: https://deap.readthedocs.io/
 ```
