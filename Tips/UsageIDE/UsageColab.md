@@ -207,6 +207,7 @@ Notebookの保存先は，先の例で示したGoogle Drive内のフォルダCol
 
 <img src="./figs/fig_IDE_Colab_ReadData_05.png" width="640px">
 
+[次の画面が現れないときは，構わず，次のステップに移ってください]
 このコードを赤枠の中に貼り付けて（paste），"Enter キー"を押してください。
 
 <!---
