@@ -176,6 +176,7 @@ Notebookの保存先は，先の例で示したGoogle Drive内のフォルダCol
 
 
 
+**[次の画面が現れないときは，構わず，次のステップに移ってください]** <br>
 次の画面で，矢印のURLに飛んでください（Go to this URL）と指示していますので，
 このURLをクリックしてください。
 
@@ -197,7 +198,7 @@ Notebookの保存先は，先の例で示したGoogle Drive内のフォルダCol
 
 <img src="./figs/fig_IDE_Colab_ReadData_04.png" width="640px">
 
-
+**[次の画面が現れないときは，構わず，次のステップに移ってください]** <br>
 次のコードを全てコピーしてください。
 
 <!---
@@ -206,6 +207,7 @@ Notebookの保存先は，先の例で示したGoogle Drive内のフォルダCol
 
 <img src="./figs/fig_IDE_Colab_ReadData_05.png" width="640px">
 
+**[次の画面が現れないときは，構わず，次のステップに移ってください]** <br>
 このコードを赤枠の中に貼り付けて（paste），"Enter キー"を押してください。
 
 <!---

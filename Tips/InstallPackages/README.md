@@ -24,7 +24,7 @@ Windowsの場合は，管理者権限で行えるようにしてください。
 
 ---------------------------------------------------------------------------
 
-## パッケージの紹介
+## パッケージのインストール
 アルファベット順
 
 ---------------------------------------------------------------------------
@@ -49,6 +49,12 @@ HP: https://pypi.org/project/Axelrod/
 HP: https://scitools.org.uk/cartopy/
 ```
 > conda install -c conda-forge cartopy
+```
+
+##### CriticalPath：PERTのクリティカルパスを求める
+HP: https://pypi.org/project/criticalpath/
+```
+> pip install criticalpath
 ```
 
 ##### DEAP：遺伝的アルゴリズム
@@ -126,6 +132,15 @@ HP: https://github.com/matplotlib/mplfinance
 ```
 > pip install --upgrade mplfinance
 ```
+
+##### Nashpy: Nash均衡を求める
+HP: https://nashpy.readthedocs.io/
+```
+> pip install nashpy
+```
+
+
+
 
 ##### NetworkX：グラフ理論で用いるノードとエッジで表現されるグラフの作成とプロット
 HP:http://networkx.github.io/
