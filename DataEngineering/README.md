@@ -1,5 +1,5 @@
 # [Pythonデータエンジニアリング入門](https://www.ohmsha.co.jp/book/9784274225345/)
-## プログラムのダウンロードとその他必要なインストールと使用の説明
+## プログラムのダウンロード、その他必要なインストールと使用、正誤表
 
 #### プログラム（データ含む）のダウンロード
 このファイルと同じサイトにある**フォルダ**[ProgramDE](./ProgramDE)の中に
@@ -26,3 +26,10 @@
 - CMake + NMakeのインストールと使用手順:[how_to_install_cmake_nmake.pdf](./how_to_install_cmake_nmake.pdf)
 - pybind11[Win版]のインストールと使用手順:[how_to_install_pybind11_win.pdf](./how_to_install_pybind11_win.pdf)
 - [CuPyインストール](./InstallCuPy.md)
+
+
+-----------------------------------------------------------------------------
+## 正誤表
+
+
+
