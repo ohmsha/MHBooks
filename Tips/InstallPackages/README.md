@@ -157,7 +157,6 @@ condaを用いたインストールは次です。
 ```
 
 
-
 ##### OpenCV: 画像や動画処理，認識
 HP: https://opencv.org/
 
@@ -184,6 +183,7 @@ HP: https://opencv.org/
 >>> print(cv2.__version__)
 4.2.0
 ```
+
 
 ##### PuLP: 線形計画法
 HP: https://pypi.org/project/PuLP/
