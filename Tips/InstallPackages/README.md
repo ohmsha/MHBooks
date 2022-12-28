@@ -7,10 +7,10 @@
 なお，“>” は<strong>プロンプト</strong>を表します。
 Windowsの場合は，管理者権限で行えるようにしてください。
 
-インストールの仕方は主に**conda**を使用します（Anacondaインストールを前提としているため）。
+インストールの仕方は，**conda**と**pip**のいずれかを使用してください。ただし，この両者でパッケージや関数の名前を管理する場所が異なるので，
+パッケージを削除する場合にはインストールした方法と同じコマンド（condaかpip）を用いてください。
 
-しかし，**pip**でインストールする場合もあります。
-この際，幾つかのパッケージが次のようにpipのアップグレードを要求されることがあります。
+**pip**でインストールする際，幾つかのパッケージが次のようにpipのアップグレードを要求することがあります。
 ```
 >python -m pip install --upgrade pip
 ```
@@ -158,8 +158,13 @@ condaを用いたインストールは次です。
 
 
 
-##### OpenCV: 画像処理，認識
+##### OpenCV: 画像や動画処理，認識
 HP: https://opencv.org/
+
+参照：https://pypi.org/project/opencv-python/
+```
+>pip install opencv-python
+```
 
 参照:https://anaconda.org/conda-forge/opencv
 
