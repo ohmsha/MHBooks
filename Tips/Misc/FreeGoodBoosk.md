@@ -10,6 +10,9 @@ http://www.kunitomo-lab.sakura.ne.jp/2021-3-3Open(S).pdf
 この書籍の原著
 PDFはCCIの条件下で，次より自由にダウンロード可能である。https://www.openintro.org/book/os/
 	- 英語版（2021-3-3Open.pdf）と日本語版（openintro-statistics-sample.pdf）を一つ上のページにアップしています。
+- Statistics Online,  Eberly College of Science, Penn State（ペンシルベニア州立大学の理科大学），本ではなくオンライン学習コースである。
+    - 右のように検索するとコースが現れる。site:https://online.stat.psu.edu/ "statistics"
+    - 例えば，site:https://online.stat.psu.edu/ "GLM"を検索するとGLMのオンライン学習Webサイトがわかる。
 
 深層学習
 - ヤン・ルカン氏（ニューヨーク大学）の講義：https://atcold.github.io/pytorch-Deep-Learning/ja/
