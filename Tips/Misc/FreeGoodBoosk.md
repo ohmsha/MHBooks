@@ -10,7 +10,9 @@ http://www.kunitomo-lab.sakura.ne.jp/2021-3-3Open(S).pdf
 この書籍の原著
 PDFはCCIの条件下で，次より自由にダウンロード可能である。https://www.openintro.org/book/os/
 	- 英語版（2021-3-3Open.pdf）と日本語版（openintro-statistics-sample.pdf）を一つ上のページにアップしています。
-- 深層学習 ヤン・ルカン氏（ニューヨーク大学）の講義：https://atcold.github.io/pytorch-Deep-Learning/ja/
+
+深層学習
+- ヤン・ルカン氏（ニューヨーク大学）の講義：https://atcold.github.io/pytorch-Deep-Learning/ja/
 
 Python
 - 東大、京大のPython教科書、Pythonチートシート、初心者向けTellus学習コースなど　https://www.atmarkit.co.jp/ait/articles/2105/26/news025.html
