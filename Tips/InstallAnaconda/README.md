@@ -4,7 +4,7 @@
 - アップデート
 - 削除
 
-注意事項：2023年5月12日現在，下記と異なる点を列挙します。
+<span style="color: red; ">注意事項：</span> 2023年5月12日現在，下記と異なる点を列挙します。
 #### パスが自動的に設定できない。
 次を参照してください：https://manumaruscript.com/anaconda-path-windows/  
 なお，筆者の場合パスは次から始まります。“C:\ProgramData\anaconda3”
