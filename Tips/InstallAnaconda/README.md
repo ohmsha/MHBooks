@@ -4,10 +4,7 @@
 - アップデート
 - 削除
 
-**注意事項** 2023年5月12日現在，下記と異なる点を列挙します。
-#### パスが自動的に設定できない。
-次を参照してください：https://manumaruscript.com/anaconda-path-windows/  
-なお，筆者の場合パスは次から始まります。“C:\ProgramData\anaconda3”
+**注意事項** 2023年5月12日現在，次の現象が出る場合あり、解決の一案を示します。
 
 #### コマンドプロンプトでpythonを実行するとMicrosoft Storeが開く問題
 次を参照してください：https://zenn.dev/ef/articles/fede252753800b12f42b  
@@ -60,7 +57,8 @@ https://www.anaconda.com/
 チェックを入れると1番目の項目の文章は <strong>赤文字</strong> に変わります。
 
 1番目の項目にチェックを入れず，1番目でJust Meを選んだ場合，
-次のPATHをユーザ自身で環境設定のPATHに追加してください。
+次のPATHをユーザ自身で環境設定のPATHに追加してください。<br>
+**備考** 2023年5月現在，"Just Me"/"All Users"に関わらずパスの自動設定がなされないことがあるため，各自で設定してください。
 
 - C:\PATH\Anaconda3;
 - C:\PATH\Anaconda3\Library\mingw-w64\bin;
@@ -68,7 +66,8 @@ https://www.anaconda.com/
 - C:\PATH\Anaconda3\Library\bin;
 - C:\PATH\Anaconda3\Scripts;
 
-ここに，PATHはAnaconda3があるパスです。
+ここに，PATHはAnaconda3があるパスです。筆者の場合，上記の“Anaconda3”の頭文字が小文字となり，次です。
+- C:\ProgramData\anaconda3
 
 -----------------------------------
 ### アップデート
