@@ -184,6 +184,17 @@ HP: https://opencv.org/
 4.6.0
 ```
 
+##### pmdarima: SARIMAモデルの自動構築，コレログラム，時系列CV（クロスバリデーション）、BoxCox変換など
+HP: http://alkaline-ml.com/pmdarima/
+
+```
+> conda install pmdarima
+```
+または，
+```
+>pip install pmdarima
+```
+
 
 ##### PuLP: 線形計画法
 HP: https://pypi.org/project/PuLP/
