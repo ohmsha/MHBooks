@@ -159,6 +159,7 @@ Notebookの保存先は，先の例で示したGoogle Drive内のフォルダCol
 <img src="./figs/fig_IDE_Colab_ReadData_01.png" width="640px">
 
 この図で，赤枠(1)のフォルダアイコンをクリック，次に赤枠(2)の[Google Drive]アイコンをクリックします。
+**備考:** このスクリプトを予め一番初めのスクリプトに読者自身で記述しておいて，実行しても，もちろんかまいません。
 
 
 
