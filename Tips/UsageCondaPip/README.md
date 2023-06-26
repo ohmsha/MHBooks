@@ -35,7 +35,8 @@ condaコマンドのドキュメント類は次にある。
 なお，ここの説明ではWindowsのコマンドプロンプト（またはPowerShell）内でのコマンド操作を次のプロンプト（”>”）を用いて行っているものとする。
 
 ```
-> command
+from google.colab import drive
+drive.mount('/content/drive')
 ```
 
 #### バージョンを見る
