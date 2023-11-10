@@ -1,8 +1,8 @@
 # 書籍のサポートサイト
 次の書籍のサポートサイトです。
 
-- [データサイエンス教本（第2版） - Pythonで学ぶ統計分析・パターン認識・深層学習・信号処理・時系列データ分析](https://www.ohmsha.co.jp/book/9784274231148/)<br>
-  ( [データサイエンス教本 - Pythonで学ぶ統計分析・パターン認識・深層学習・信号処理・時系列データ分析](https://www.ohmsha.co.jp/book/9784274222900/)は終了しました）
+- [データサイエンス教本（第2版） - Pythonで学ぶ統計分析・パターン認識・深層学習・信号処理・時系列データ分析](https://www.ohmsha.co.jp/book/9784274231148/)
+- ( [データサイエンス教本 - Pythonで学ぶ統計分析・パターン認識・深層学習・信号処理・時系列データ分析](https://www.ohmsha.co.jp/book/9784274222900/)は終了しました）
 - [Pythonデータエンジニアリング入門 - 高速化とデバイスデータアクセスの基本と応用](https://www.ohmsha.co.jp/book/9784274225345/)
 - [Pythonコンピュータシミュレーション入門、人文・自然・社会科学の数理モデル](https://www.ohmsha.co.jp/book/9784274226984/)
 - [Python意思決定の数理](https://www.ohmsha.co.jp/book/9784274228988/)
@@ -12,6 +12,7 @@
 各書籍で用いているプログラム（データ含む）とその他（正誤表，または固有の使い方など）は次にあります。
 <br>プログラムはダウンロードしてから使えます。
 
+- **データサイエンス教本（第2版）** &rarr; フォルダ [DataScience2ndEd](./DataScience2ndEd)の中を見てください。
 - **データサイエンス教本** &rarr; フォルダ [DataScience](./DataScience)の中を見てください。
 - **Pythonデータエンジニアリング入門** &rarr; フォルダ[DataEngineering](./DataEngineering)の中を見てください。
 - **Pythonコンピュータシミュレーション入門** &rarr; フォルダ[ComputerSimulation](./ComputerSimulation)の中を見てください。
