@@ -13,7 +13,7 @@
 <br>プログラムはダウンロードしてから使えます。
 
 - **データサイエンス教本（第2版）** &rarr; フォルダ [DataScience2ndEd](./DataScience2ndEd)の中を見てください。
-- 【販売終了】**データサイエンス教本** &rarr; フォルダ [DataScience](./DataScience)の中を見てください。
+- 【出版終了】**データサイエンス教本** &rarr; フォルダ [DataScience](./DataScience)の中を見てください。
 - **Pythonデータエンジニアリング入門** &rarr; フォルダ[DataEngineering](./DataEngineering)の中を見てください。
 - **Pythonコンピュータシミュレーション入門** &rarr; フォルダ[ComputerSimulation](./ComputerSimulation)の中を見てください。
 - **Python意思決定の数理** &rarr; フォルダ[DecisionMaking](./DecisionMaking)の中を見てください。
