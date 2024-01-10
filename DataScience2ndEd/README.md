@@ -34,3 +34,6 @@
 #### 【第2版第1刷】
 page 65 下の欄外
 - https://en.wikipedia.org/wiki/Birthday\_problem  &rarr; https://en.wikipedia.org/wiki/Birthday_problem
+
+page 76 図3.10、横軸の記号
+- t(lamb=1), t(lamb=4) &rarr; x(lamb=1), x(lamb=4)
