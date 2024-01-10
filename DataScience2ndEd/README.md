@@ -37,3 +37,4 @@ page 65 下の欄外
 
 page 76 図3.10、横軸の記号
 - t(lamb=1), t(lamb=4) &rarr; x(lamb=1), x(lamb=4)
+これに伴い、ch03_Exponent.ipynb 内で、xlabelの表示が上記になるように訂正しました。
