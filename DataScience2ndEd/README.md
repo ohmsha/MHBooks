@@ -33,4 +33,4 @@
 
 #### 【第2版第1刷】
 page 65 下の欄外
-- https://en.wikipedia.org/wiki/Birthday\_problem　--> https://en.wikipedia.org/wiki/Birthday_problem
+- https://en.wikipedia.org/wiki/Birthday\_problem  &rarr; https://en.wikipedia.org/wiki/Birthday_problem
