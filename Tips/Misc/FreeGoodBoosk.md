@@ -21,3 +21,10 @@ Python
 - 京大、KURENAI紅（リポジトリ）、プログラミング演習 Python　http://hdl.handle.net/2433/285599
 - 東大、京大のPython教科書、Pythonチートシート、初心者向けTellus学習コースなど　https://www.atmarkit.co.jp/ait/articles/2105/26/news025.html
 - 三谷純先生，　[「Python ゼロからはじめるプログラミング」](https://www.shoeisha.co.jp/book/detail/9784798169460)の[副教材](https://mitani.cs.tsukuba.ac.jp/book_support/python/)　素晴らしい内容で，皆に伝えたくこのPPTをアップしました。これは，この一つ上のパス(Tips/Misc)に，ファイル名"python_slides_Mitani.pptx"としてアップしました。
+
+
+コンピューターサイエンスの歴史で影響力のある論文7本
+- 引用：コンピューターサイエンスの歴史で最も影響力のある論文7本、Gigazine, 2025, 
+- https://gigazine.net/news/20250124-7-most-influential-papers-computer-science/
+- マテウス・リマ氏 個人の主観による選定
+- A.M. Turing, C.E.Shannon　など、当分野の名だたる研究者の論文が紹介されている。
