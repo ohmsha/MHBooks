@@ -22,8 +22,7 @@ page 32 図2.2の計算結果 および　リスト2.7について
 	- p15 = np.polyfit(x, y, deg=15) --> 　p13 = np.polyfit(x, y, deg=13)
 	- y15 = np.polyval(p15, xx) --> y13 = np.polyval(p13, xx)
     - plt.plot(xx, y15) --> plt.plot(xx, y13)
-本文、上から4行目
-- deg=15 --> deg=13
+- 本文、上から4行目  deg=15 --> deg=13
 
 
 page 46 ボックス・ミュラー法　(2.41）式
