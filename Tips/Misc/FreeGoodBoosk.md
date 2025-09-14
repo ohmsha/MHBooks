@@ -21,6 +21,7 @@ Python
 - 京大、KURENAI紅（リポジトリ）、プログラミング演習 Python　http://hdl.handle.net/2433/285599
 - 東大、京大のPython教科書、Pythonチートシート、初心者向けTellus学習コースなど　https://www.atmarkit.co.jp/ait/articles/2105/26/news025.html
 - 三谷純先生，　[「Python ゼロからはじめるプログラミング」](https://www.shoeisha.co.jp/book/detail/9784798169460)の[副教材](https://mitani.cs.tsukuba.ac.jp/book_support/python/)　素晴らしい内容で，皆に伝えたくこのPPTをアップしました。これは，この一つ上のパス(Tips/Misc)に，ファイル名"python_slides_Mitani.pptx"としてアップしました。
+- Jake VanderPlas, Python Data Science Handbook, O'REILLY, 筆者がgithubで公開　https://jakevdp.github.io/PythonDataScienceHandbook/
 
 
 コンピューターサイエンスの歴史で影響力のある論文7本
