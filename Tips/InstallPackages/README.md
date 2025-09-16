@@ -186,6 +186,7 @@ HP: https://opencv.org/
 
 ##### pmdarima: SARIMAモデルの自動構築，コレログラム，時系列CV（クロスバリデーション）、BoxCox変換など
 HP: http://alkaline-ml.com/pmdarima/
+<br>
 注意：2025.09.16 現在, 本パッケージは，Numpy 2.0以上に対応していますので、Numpy < 2.0 としてください。　例えば、
 !pip install numpy==1.26.4
 参照元：https://github.com/googlecolab/colabtools/issues/5190
