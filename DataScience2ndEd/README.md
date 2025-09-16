@@ -32,6 +32,9 @@
 本書の正誤表です。誤りに関し筆者の力の足りなさをお詫びいたします。また，誤りをご指摘くださった読者のみなさまに御礼申し上げます。誤りの訂正をお願いいたします。
 
 #### 【第2版第1刷】
+pmdarimaパッケージにバージョンエラーが出た場合
+- see https://github.com/ohmsha/MHBooks/tree/master/Tips/InstallPackages
+
 page 65 下の欄外
 - https://en.wikipedia.org/wiki/Birthday\_problem  &rarr; https://en.wikipedia.org/wiki/Birthday_problem
 
