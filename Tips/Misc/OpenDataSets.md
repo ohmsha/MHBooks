@@ -234,13 +234,13 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 
 
 ### The USC-SIPI Image Database  
-南カリフォルニア大学（USC），信号・画像処理研究所（SIPI）が提供する画像データセット。この内容は，世界標準で扱われるTextures(テクスチャ）、Aerials（航空写真）、Miscellaneous（レナ、ヒヒなど）、Sequencs(顔や車の動きの連続写真)がある。
-- 注意：SIDBA (Standard Image Data-BAse)の使用は控える
-	- この画像には許諾を得ていなかったり
-		- 画像の一部にあるLena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））
-		- https://en.wikipedia.org/wiki/Lenna
-	- 出典が不明で著作権侵害の可能性があるため
-	- 本データセットの使用は控えた方が良いため、Webサイトの紹介をしていません。
+南カリフォルニア大学（USC），信号・画像処理研究所（SIPI）が提供する画像データセット。この内容は，世界標準で扱われるTextures(テクスチャ）、Aerials（航空写真）、Miscellaneous（ヒヒなど）、Sequencs(顔や車の動きの連続写真)がある。
+- **注意**：歴史的に、このデータの一部には、許諾を得ていなかったり、出典が不明で著作権侵害の可能性があった。
+	- Lena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw）
+	- https://en.wikipedia.org/wiki/Lenna
+- そのため、USC-SIPIは、Copyright Information (https://sipi.usc.edu/database/copyright.php)を宣言し、一部のデータは、他者が許諾権を有していると述べている。従って、このデータの使用は控えるべきであろう。なお、上記のLenaのデータは削除されているようである。
+- 上記を理解して、知的財産権を遵守した使用ができるユーザーは、下記を参照してください。
+- https://sipi.usc.edu/database/copyright.php
 
 ### ImageProcessingPlace.com  
 有志の集まりによる運営で，上記の画像データセットに加えて，プログラムも提供する画像データセット。
