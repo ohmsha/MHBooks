@@ -238,7 +238,7 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - **注意**：歴史的に、このデータの一部には、許諾を得ていなかったり、出典が不明で著作権侵害の可能性があった。
 	- Lena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw）
 	- https://en.wikipedia.org/wiki/Lenna
-- そのため、USC-SIPIは、Copyright Information (https://sipi.usc.edu/database/copyright.php)を宣言し、一部のデータは、他者が許諾権を有していると述べている。従って、このデータの使用は控えるべきであろう。なお、上記のLenaのデータは削除されているようである。
+- そのため、USC-SIPIは、Copyright Information (https://sipi.usc.edu/database/copyright.php ) を宣言し、一部のデータは、他者が許諾権を有していると述べている。従って、このデータの使用は控えるべきであろう。なお、上記のLenaのデータは削除されているようである。
 - 上記を理解して、知的財産権を遵守した使用ができるユーザーは、下記を参照してください。
 - https://sipi.usc.edu/database/copyright.php
 
