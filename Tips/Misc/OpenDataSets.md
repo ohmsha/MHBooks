@@ -142,6 +142,11 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - https://github.com/ipython-books/cookbook-data
 - テニス、タイタニック号の乗客など
 
+### CIFAR-100（様々な画像、カナダ高等研究所（CIFAR））
+- https://www.cs.toronto.edu/~kriz/cifar.html
+- https://en.wikipedia.org/wiki/CIFAR-10
+
+
 [](コメントアウト-------------------------------------------------------------------------------)
 ## 【分類2】
 
@@ -149,6 +154,27 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - https://datasetsearch.research.google.com/
 - 機械学習だけでなく、仕事や研究など幅広く活用できる。
 - 検索については、上記のサイトに書かれている。
+
+### QMNIST（手書き文字のデータセット）
+- https://github.com/facebookresearch/qmnist
+- MNIST(https://en.wikipedia.org/wiki/MNIST_database)の欠点を補う上位版
+- https://arxiv.org/abs/1905.10498
+- train/test合計で1074人計12万個の手書き文字画像から構成されており、1人当たり100~130個の画像が含まれている。
+
+### ImageNet（多種画像）
+- https://www.image-net.org/
+- ダウンロードページ https://www.image-net.org/download.php
+- 深層学習の発展に貢献、しかし、幾つかの課題も指摘されている　https://ja.wikipedia.org/wiki/ImageNet
+
+### Fashion-MNIST（ファッション商品（写真）のデータセット）
+- https://www.kaggle.com/datasets/zalando-research/fashionmnist
+- https://github.com/zalandoresearch/fashion-mnist/blob/master/README.ja.md
+- https://en.wikipedia.org/wiki/Fashion-MNIST
+
+### Large-scale Fashion（大規模ファッションデータセット）
+- ここでは、ZOZO研究所が公開したデータセットを紹介。
+- https://research.zozo.com/data.html
+- https://github.com/st-tech/zr-obp
 
 
 ### SSDSE（教育用標準データセット：Standardized Statistical Data Set for Education） 
