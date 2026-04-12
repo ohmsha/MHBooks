@@ -170,10 +170,10 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - ALOT (Amsterdam Library of Textures):  https://aloi.science.uva.nl/public_alot
 - FFHQ (Flickr-Faces-HQ Dataset): https://github.com/NVlabs/ffhq-dataset
 - AFHQ (Animal Faces-HQ): https://huggingface.co/papers/trending
-:::note warn
-注意： SIDBA (Standard Image Data-BAse)の使用は控える
-- この画像には許諾を得ていなかったり（Lena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））、出典が不明で著作権侵害の可能性があるため、本データセットの使用は控えた方が良いでしょう。
-:::
+- 注意：SIDBA (Standard Image Data-BAse)の使用は控える
+	- この画像には許諾を得ていなかったり（Lena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））
+	- 出典が不明で著作権侵害の可能性があるため、本データセットの使用は控えた方が良いでしょう。
+
 
 ### Fashion-MNIST（ファッション商品（写真）のデータセット）
 - https://www.kaggle.com/datasets/zalando-research/fashionmnist
