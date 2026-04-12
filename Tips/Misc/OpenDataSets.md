@@ -155,40 +155,6 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - 機械学習だけでなく、仕事や研究など幅広く活用できる。
 - 検索については、上記のサイトに書かれている。
 
-### QMNIST（手書き文字のデータセット）
-- https://github.com/facebookresearch/qmnist
-- MNIST(https://en.wikipedia.org/wiki/MNIST_database)の欠点を補う上位版
-- https://arxiv.org/abs/1905.10498
-- train/test合計で1074人計12万個の手書き文字画像から構成されており、1人当たり100~130個の画像が含まれている。
-
-### ImageNet（多種画像）
-- https://www.image-net.org/
-- ダウンロードページ https://www.image-net.org/download.php
-- 深層学習の発展に貢献、しかし、幾つかの課題も指摘されている　https://ja.wikipedia.org/wiki/ImageNet
-
-### ALOT, FFHQ, AFHQ（他の画像データセット）
-- ALOT (Amsterdam Library of Textures):  https://aloi.science.uva.nl/public_alot
-- FFHQ (Flickr-Faces-HQ Dataset): https://github.com/NVlabs/ffhq-dataset
-- AFHQ (Animal Faces-HQ): https://huggingface.co/papers/trending
-- 注意：SIDBA (Standard Image Data-BAse)の使用は控える
-	- この画像には許諾を得ていなかったり
-		- 画像の一部にあるLena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））
-		- https://en.wikipedia.org/wiki/Lenna
-	- 出典が不明で著作権侵害の可能性があるため
-	- 本データセットの使用は控えた方が良く、ここでは、紹介していません。
-
-
-### Fashion-MNIST（ファッション商品（写真）のデータセット）
-- https://www.kaggle.com/datasets/zalando-research/fashionmnist
-- https://github.com/zalandoresearch/fashion-mnist/blob/master/README.ja.md
-- https://en.wikipedia.org/wiki/Fashion-MNIST
-
-### Large-scale Fashion（大規模ファッションデータセット）
-- ここでは、ZOZO研究所が公開したデータセットを紹介。
-- https://research.zozo.com/data.html
-- https://github.com/st-tech/zr-obp
-
-
 ### SSDSE（教育用標準データセット：Standardized Statistical Data Set for Education） 
 - https://www.nstac.go.jp/use/literacy/ssdse/
 - 上記は，次のWebサイトの中にある。「統計データ分析コンペティション」（https://www.nstac.go.jp/statcompe/）
@@ -239,9 +205,42 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 [](コメントアウト-------------------------------------------------------------------------------)
 ## 【分類3】
 
+### QMNIST（手書き文字のデータセット）
+- https://github.com/facebookresearch/qmnist
+- MNIST(https://en.wikipedia.org/wiki/MNIST_database)の欠点を補う上位版
+- https://arxiv.org/abs/1905.10498
+- train/test合計で1074人計12万個の手書き文字画像から構成されており、1人当たり100~130個の画像が含まれている。
+
+### ImageNet（多種画像）
+- https://www.image-net.org/
+- ダウンロードページ https://www.image-net.org/download.php
+- 深層学習の発展に貢献、しかし、幾つかの課題も指摘されている　https://ja.wikipedia.org/wiki/ImageNet
+
+### ALOT, FFHQ, AFHQ（他の画像データセット）
+- ALOT (Amsterdam Library of Textures):  https://aloi.science.uva.nl/public_alot
+- FFHQ (Flickr-Faces-HQ Dataset): https://github.com/NVlabs/ffhq-dataset
+- AFHQ (Animal Faces-HQ): https://huggingface.co/papers/trending
+
+
+### Fashion-MNIST（ファッション商品（写真）のデータセット）
+- https://www.kaggle.com/datasets/zalando-research/fashionmnist
+- https://github.com/zalandoresearch/fashion-mnist/blob/master/README.ja.md
+- https://en.wikipedia.org/wiki/Fashion-MNIST
+
+### Large-scale Fashion（大規模ファッションデータセット）
+- ここでは、ZOZO研究所が公開したデータセットを紹介。
+- https://research.zozo.com/data.html
+- https://github.com/st-tech/zr-obp
+
+
 ### The USC-SIPI Image Database  
 南カリフォルニア大学（USC），信号・画像処理研究所（SIPI）が提供する画像データセット。この内容は，世界標準で扱われるTextures(テクスチャ）、Aerials（航空写真）、Miscellaneous（レナ、ヒヒなど）、Sequencs(顔や車の動きの連続写真)がある。
-- http://sipi.usc.edu/database/
+- 注意：SIDBA (Standard Image Data-BAse)の使用は控える
+	- この画像には許諾を得ていなかったり
+		- 画像の一部にあるLena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））
+		- https://en.wikipedia.org/wiki/Lenna
+	- 出典が不明で著作権侵害の可能性があるため
+	- 本データセットの使用は控えた方が良いため、Webサイトの紹介をしていません。
 
 ### ImageProcessingPlace.com  
 有志の集まりによる運営で，上記の画像データセットに加えて，プログラムも提供する画像データセット。
