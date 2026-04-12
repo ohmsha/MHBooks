@@ -166,6 +166,13 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - ダウンロードページ https://www.image-net.org/download.php
 - 深層学習の発展に貢献、しかし、幾つかの課題も指摘されている　https://ja.wikipedia.org/wiki/ImageNet
 
+### ALOT, FFHQ, AFHQ（他の画像データセット）
+- ALOT (Amsterdam Library of Textures):  https://aloi.science.uva.nl/public_alot
+- FFHQ (Flickr-Faces-HQ Dataset): https://github.com/NVlabs/ffhq-dataset
+- AFHQ (Animal Faces-HQ): https://huggingface.co/papers/trending
+- 注意： SIDBA (Standard Image Data-BAse)の使用は控える
+-- この画像には許諾を得ていなかったり（Lena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））、出典が不明で著作権侵害の可能性があるため、本データセットの使用は控えた方が良いでしょう。
+
 ### Fashion-MNIST（ファッション商品（写真）のデータセット）
 - https://www.kaggle.com/datasets/zalando-research/fashionmnist
 - https://github.com/zalandoresearch/fashion-mnist/blob/master/README.ja.md
