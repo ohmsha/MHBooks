@@ -172,7 +172,8 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 - AFHQ (Animal Faces-HQ): https://huggingface.co/papers/trending
 - 注意：SIDBA (Standard Image Data-BAse)の使用は控える
 	- この画像には許諾を得ていなかったり（Lena自身が使用を止めてほしい主張；Losing Lena（https://www.youtube.com/watch?v=75vOBQpPLfw））
-	- 出典が不明で著作権侵害の可能性があるため、本データセットの使用は控えた方が良いでしょう。
+	- 出典が不明で著作権侵害の可能性があるため
+	- 本データセットの使用は控えた方が良く、ここでは、紹介していません。
 
 
 ### Fashion-MNIST（ファッション商品（写真）のデータセット）
