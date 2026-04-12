@@ -145,6 +145,12 @@ Python Seabornのサンプルグラフ描くために用意されたサンプル
 [](コメントアウト-------------------------------------------------------------------------------)
 ## 【分類2】
 
+### Googe Dataset 
+- https://datasetsearch.research.google.com/
+- 機械学習だけでなく、仕事や研究など幅広く活用できる。
+- 検索については、上記のサイトに書かれている。
+
+
 ### SSDSE（教育用標準データセット：Standardized Statistical Data Set for Education） 
 - https://www.nstac.go.jp/use/literacy/ssdse/
 - 上記は，次のWebサイトの中にある。「統計データ分析コンペティション」（https://www.nstac.go.jp/statcompe/）
